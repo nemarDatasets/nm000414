@@ -122,3 +122,15 @@ Compiled after the upload from the article, its supplement and the source deposi
 | sub-study6 = Study024 (Pennsieve 15, Study 6) | 8-contact strip placed over the right parietal cortex | R | 8 | https://discover.pennsieve.io/datasets/15/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
 | sub-study6 = Study024 (Pennsieve 15, Study 6) | a 4-contact strip placed over the right central interhemispheric region | R | 4 | https://discover.pennsieve.io/datasets/15/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
 | sub-study6 = Study024 (Pennsieve 15, Study 6) | a 15-contact hybrid strip inserted in the right frontal interhemispheric region | R | 16 | https://discover.pennsieve.io/datasets/15/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+
+## Ethics
+
+The source records (Pennsieve Discover datasets 13, 14 and 15 = IEEG.org Studies 021, 023 and 024; contributors Brian Litt and Gregory Worrell) say only that the data were "obtained for clinical treatment and collected for research"; they contain no ethics approval statement.
+
+Research intracranial EEG from the Mayo Clinic laboratory of Gregory Worrell is described as collected under a Mayo Clinic IRB-approved wide-bandwidth electrophysiology study in Cimbalnik et al. (2018), Methods, "Patients" (verbatim):
+
+> Each patient consented to this Mayo Institutional Review Board approved study investigating wide bandwidth electrophysiology.
+
+Cimbalnik J, Brinkmann B, Kremen V, Jurak P, Berry B, Van Gompel J, Stead M, Worrell G (2018). Physiological and pathological high frequency oscillations in focal epilepsy. Annals of Clinical and Translational Neurology 5(9):1062-1076. https://doi.org/10.1002/acn3.618 (PMC6144446).
+
+Scope of this statement: neither the Pennsieve/IEEG.org records nor the paper link these three patients to the paper's 112-patient cohort, and the paper does not mention IEEG.org. The statement documents the Mayo Clinic IRB-approved research protocol of the contributing laboratory; it is not a per-patient approval confirmed by the source records.
