@@ -37,5 +37,33 @@
   },
   "prior_resection": {
     "Description": "graph/patient.csv prior_resection"
+  },
+  "diagnosis": {
+    "Source": "readme.md (verbatim summary of EEG report conclusion)",
+    "Description": "diagnosis"
+  },
+  "implant_type": {
+    "Source": "graph/eeg_study.csv type_of_electrodes; readme.md",
+    "Description": "implant type"
+  },
+  "implanted_hemisphere": {
+    "Source": "readme.md electrode placements",
+    "Description": "implanted hemisphere"
+  },
+  "n_contacts": {
+    "Description": "number of channels",
+    "Source": "graph/eeg_study.csv number_of_channels (= MEF file count in listing)"
+  },
+  "soz_or_focus": {
+    "Source": "readme.md (verbatim/near-verbatim)",
+    "Description": "soz or focus"
+  },
+  "surgery": {
+    "Source": "readme.md",
+    "Description": "surgery"
+  },
+  "pathology": {
+    "Source": "readme.md",
+    "Description": "pathology"
   }
 }

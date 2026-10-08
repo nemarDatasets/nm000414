@@ -83,3 +83,42 @@ CC0-1.0 (Creative Commons Zero 1.0 Universal), as released.
 MEF 2.0 was decoded with mef_lib_2_1 (github.com/benbrinkmann/mef_lib_2_1, Apache-2.0); note that the library's built-in block
 CRC check reads the output buffer, so the CRCs were validated on the compressed bytes instead. Every written sample was
 compared with the decoded MEF sample (exact equality).
+
+## Additional metadata and localisation (added 2026-10-08)
+
+Compiled after the upload from the article, its supplement and the source deposit (each statement names its source). Text and sidecar metadata only; no data file was changed.
+
+**Recording system.** 500 Hz sampling, 88 / 108 / 88 channels (graph/eeg_study.csv of 13 / 14 / 15), one MEF file per channel. Amplifier, filters: n/a.
+
+**Reference scheme.** Study 5 cartoon map marks a GND/REF strip (Cartoon Map.pdf, Pennsieve 13); otherwise not stated.
+
+**Electrode types.** Study 5: subdural grid (8x8), strips and two 4-contact depths targeting the hippocampus; Study 3: 6x8 and two 4x6 grids, two 4-contact strips, one 4-contact depth; Study 6: strips only, bilateral, including 15-contact hybrid interhemispheric strips (readme.md; eeg_study.csv type_of_electrodes; Cartoon Map.pdf).
+
+**Localisation method.** Only schematic placement: readme.md text and a cartoon map (Cartoon Map.pdf) naming each electrode on a lateral brain drawing. Post-implant CT and pre-implant MRI acquisitions are listed in graph/imaging_study.csv / ct_details.csv / mr_details.csv (metadata only; no image files in the listings), so no contact coordinates exist in the deposits.
+
+### Regions per participant (as published; no coordinates exist)
+
+| participant | region (as stated) | hemisphere | contacts | source |
+|---|---|---|---|---|
+| sub-study5 = Study023 (Pennsieve 13, Study 5) | an 8x8 grid inserted over the left posterior temporo-occipital region | L | 64 | https://discover.pennsieve.io/datasets/13/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study5 = Study023 (Pennsieve 13, Study 5) | an 8-contact straight strip inserted into the left frontal region parallel to the superior temporal gyrus | L | 8 | https://discover.pennsieve.io/datasets/13/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study5 = Study023 (Pennsieve 13, Study 5) | a 4-contact straight strip inserted over the left anterior temporal pole | L | 4 | https://discover.pennsieve.io/datasets/13/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study5 = Study023 (Pennsieve 13, Study 5) | a 4-contact straight strip inserted over the left inferior subtemporal region, posterior to the anterior temporal strip | L | 4 | https://discover.pennsieve.io/datasets/13/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study5 = Study023 (Pennsieve 13, Study 5) | a 4-contact orthogonal depth electrode inserted between the anterior temporal strip and inferior subtemporal strip, targeting the hippocampus | L | 4 | https://discover.pennsieve.io/datasets/13/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study5 = Study023 (Pennsieve 13, Study 5) | another 4-contact orthogonal depth electrode targeting the hippocampus | L | 4 | https://discover.pennsieve.io/datasets/13/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study3 = Study021 (Pennsieve 14, Study 3) | a 6 x 8 grid that was placed over the right frontal region | R | 48 | https://discover.pennsieve.io/datasets/14/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study3 = Study021 (Pennsieve 14, Study 3) | two 4 x 6 grids placed over the right temporal lobe and right parietal region, respectively (temporal grid) | R | 24 | https://discover.pennsieve.io/datasets/14/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study3 = Study021 (Pennsieve 14, Study 3) | two 4 x 6 grids placed over the right temporal lobe and right parietal region, respectively (parietal grid) | R | 24 | https://discover.pennsieve.io/datasets/14/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study3 = Study021 (Pennsieve 14, Study 3) | a 4-contact strip wrapped beneath the right anterior temporal lobe | R | 4 | https://discover.pennsieve.io/datasets/14/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study3 = Study021 (Pennsieve 14, Study 3) | a 4-contact strip wrapped beneath the right posterior temporal lobe | R | 4 | https://discover.pennsieve.io/datasets/14/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study3 = Study021 (Pennsieve 14, Study 3) | a 4-contact depth electrode inserted in the anterior temporal region | R | 4 | https://discover.pennsieve.io/datasets/14/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study6 = Study024 (Pennsieve 15, Study 6) | 8-contact strip placed over the left frontopolar cortex | L | 8 | https://discover.pennsieve.io/datasets/15/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study6 = Study024 (Pennsieve 15, Study 6) | 8-contact strip placed over the left temporal cortex | L | 8 | https://discover.pennsieve.io/datasets/15/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study6 = Study024 (Pennsieve 15, Study 6) | 8-contact strip placed over the left parietal cortex | L | 8 | https://discover.pennsieve.io/datasets/15/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study6 = Study024 (Pennsieve 15, Study 6) | a 4-contact strip inserted in the left frontal interhemispheric region | L | 4 | https://discover.pennsieve.io/datasets/15/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study6 = Study024 (Pennsieve 15, Study 6) | a 15-contact hybrid strip placed over the left central interhemispheric region | L | 16 | https://discover.pennsieve.io/datasets/15/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study6 = Study024 (Pennsieve 15, Study 6) | 8-contact strip placed over the right frontopolar cortex | R | 8 | https://discover.pennsieve.io/datasets/15/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study6 = Study024 (Pennsieve 15, Study 6) | 8-contact strip placed over the right temporal cortex | R | 8 | https://discover.pennsieve.io/datasets/15/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study6 = Study024 (Pennsieve 15, Study 6) | 8-contact strip placed over the right parietal cortex | R | 8 | https://discover.pennsieve.io/datasets/15/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study6 = Study024 (Pennsieve 15, Study 6) | a 4-contact strip placed over the right central interhemispheric region | R | 4 | https://discover.pennsieve.io/datasets/15/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
+| sub-study6 = Study024 (Pennsieve 15, Study 6) | a 15-contact hybrid strip inserted in the right frontal interhemispheric region | R | 16 | https://discover.pennsieve.io/datasets/15/version/1 readme.md + packages/Cartoon Map.pdf, readme.md paragraph 2 (placement) |
