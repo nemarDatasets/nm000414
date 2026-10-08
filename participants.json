@@ -1,0 +1,41 @@
+{
+  "age": {
+    "Description": "Age at admission for intracranial monitoring, from the record readme",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "From the record readme",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "handedness": {
+    "Description": "From the record readme",
+    "Levels": {
+      "R": "right"
+    }
+  },
+  "age_at_onset": {
+    "Description": "Age at epilepsy onset, from the record readme",
+    "Units": "year"
+  },
+  "ieeg_portal_study": {
+    "Description": "IEEG.org study name (graph/patient.csv 'id', annotations layer)"
+  },
+  "pennsieve_dataset": {
+    "Description": "Pennsieve Discover dataset id and DOI"
+  },
+  "seizure_type": {
+    "Description": "graph/patient.csv seizure_type"
+  },
+  "ilae_surgical_outcome": {
+    "Description": "graph/patient.csv ilae_surgical_outcome"
+  },
+  "brain_resected": {
+    "Description": "graph/patient.csv brain_resected"
+  },
+  "prior_resection": {
+    "Description": "graph/patient.csv prior_resection"
+  }
+}

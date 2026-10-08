@@ -1,0 +1,3 @@
+id,label,echo_time,flip_angle,inversion_time,magnetic_field_strength,percent_phase_fov,protocol_name,repetition_time,scan_options,scanning_sequence,sequence_variant,series_description,time_point
+d89b113a-fd15-4902-b163-df78816a48b8,mr_details,98.384,90.0,,3.0,100.0,3T Head Without/6,11516.7,"FAST_GEMS\\FC_SLICE_AX_GEMS\\FC\\TRF_GEMS\\ACC_GEMS",SE,SK,Ax Fse T2,Pre-Implant
+bdf836d8-b40e-4b96-9b16-989356f28df5,mr_details,10.0,25.0,,1.5,81.0,Brain For Seizures/,23.0,"FC\\VB_GEMS\\VASCTOF_GEMS",RM,None,cor 3d fobl,Pre-Implant

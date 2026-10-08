@@ -1,0 +1,5 @@
+{
+  "type": {
+    "Description": "Electrode kind from the record readme (grid, strip, depth)"
+  }
+}

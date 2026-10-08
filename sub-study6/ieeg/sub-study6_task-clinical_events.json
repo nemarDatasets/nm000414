@@ -1,0 +1,17 @@
+{
+  "trial_type": {
+    "Description": "Annotation type in the IEEG.org annotation layer (packages/EEG/annotations.xml)"
+  },
+  "annotation_id": {
+    "Description": "Annotation id in annotations.xml"
+  },
+  "layer": {
+    "Description": "IEEG.org annotation layer"
+  },
+  "annotator": {
+    "Description": "Annotator field of annotations.xml"
+  },
+  "channels": {
+    "Description": "Channels listed for the annotation in annotations.xml"
+  }
+}

@@ -1,0 +1,12 @@
+file	dates_set_to_day_01
+graph/clinical_report.csv	9
+graph/ct_details.csv	1
+graph/eeg_study.csv	0
+graph/imaging_study.csv	2
+graph/mr_details.csv	0
+graph/packages.csv	0
+graph/patient.csv	0
+graph/pt_details.csv	0
+graph/relationships.csv	0
+graph/seizures.csv	4
+packages/EEG/annotations.xml	4

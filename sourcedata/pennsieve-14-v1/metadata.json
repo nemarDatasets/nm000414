@@ -1,0 +1,1026 @@
+{
+  "pennsieveDatasetId": 14,
+  "version": 1,
+  "name": "Intracranial EEG Epilepsy - Study 3",
+  "description": "Data for a patient with epilepsy obtained for clinical treatment and collected for research, consisting of a large intracranial EEG dataset (grid, strip, and depth electrodes) with multiple seizures.",
+  "creator": "Jenaye Johnson ",
+  "contributors": [
+    "Gregory Worrell",
+    "Brian Litt"
+  ],
+  "sourceOrganization": "Mayo",
+  "keywords": [
+    "epilepsy",
+    "eeg",
+    "intracranial",
+    "grid electrodes",
+    "strip electrodes",
+    "depth electrodes",
+    "seizure"
+  ],
+  "datePublished": "2019-07-12",
+  "license": "Creative Commons Zero 1.0 Universal",
+  "@id": "https://doi.org/10.26275/psj7-wggf",
+  "publisher": "Blackfynn, Inc",
+  "@context": "http://schema.org/",
+  "@type": "Dataset",
+  "schemaVersion": "http://schema.org/version/3.7/",
+  "files": [
+    {
+      "path": "packages/Cartoon Map.pdf",
+      "size": 234714,
+      "fileType": "PDF",
+      "s3VersionId": "oQZgeu.V.FuteKVVqBsqQakXwFvWDWgn"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RAT1.mef",
+      "size": 304582704,
+      "fileType": "MEF",
+      "s3VersionId": "lqHS6rpXcktXjFYRM7uspGP9X2SQVBAn"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RAT2.mef",
+      "size": 301814656,
+      "fileType": "MEF",
+      "s3VersionId": "Yhpy9Z.8knREsdSqMs9r1sWMndpYaO1C"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RAT2.mef",
+      "size": 301814656,
+      "fileType": "MEF",
+      "s3VersionId": "Yhpy9Z.8knREsdSqMs9r1sWMndpYaO1C"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RAT3.mef",
+      "size": 312518552,
+      "fileType": "MEF",
+      "s3VersionId": "1nowBuM8SAjASNPmb90R2ydtsob.sP9d"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RAT3.mef",
+      "size": 312518552,
+      "fileType": "MEF",
+      "s3VersionId": "1nowBuM8SAjASNPmb90R2ydtsob.sP9d"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RAT4.mef",
+      "size": 301014264,
+      "fileType": "MEF",
+      "s3VersionId": "56Qxyx6gi5xH0aKLspmMNupH3TIJ9cWD"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RAT4.mef",
+      "size": 301014264,
+      "fileType": "MEF",
+      "s3VersionId": "56Qxyx6gi5xH0aKLspmMNupH3TIJ9cWD"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG1.mef",
+      "size": 309544536,
+      "fileType": "MEF",
+      "s3VersionId": "TVVPia1LhT9uchYD0XQ50uhvCMdFum7U"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG10.mef",
+      "size": 315054136,
+      "fileType": "MEF",
+      "s3VersionId": "2D7scn8QuBuK.pFu8.B6wcsE9uHjBTW5"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG10.mef",
+      "size": 315054136,
+      "fileType": "MEF",
+      "s3VersionId": "2D7scn8QuBuK.pFu8.B6wcsE9uHjBTW5"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG11.mef",
+      "size": 300983368,
+      "fileType": "MEF",
+      "s3VersionId": "kkx06IvAh0yJ1gJ0QKjH_r.Sh4X28MkD"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG11.mef",
+      "size": 300983368,
+      "fileType": "MEF",
+      "s3VersionId": "kkx06IvAh0yJ1gJ0QKjH_r.Sh4X28MkD"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG12.mef",
+      "size": 318600008,
+      "fileType": "MEF",
+      "s3VersionId": "QtNxYb969JHb4LwGocVboOlmxATB9wkF"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG13.mef",
+      "size": 327290656,
+      "fileType": "MEF",
+      "s3VersionId": "_rLfxNsOjb1aP4lYt6CUDN20Q02bvQBZ"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG14.mef",
+      "size": 331192480,
+      "fileType": "MEF",
+      "s3VersionId": "IK9zx1CsQPJUp3MmTHZJz_hj8guHo5Qt"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG15.mef",
+      "size": 304151008,
+      "fileType": "MEF",
+      "s3VersionId": "3CMO1J9RKY8eM7wS2mZzc6bcyeIPM5ju"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG15.mef",
+      "size": 304151008,
+      "fileType": "MEF",
+      "s3VersionId": "3CMO1J9RKY8eM7wS2mZzc6bcyeIPM5ju"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG16.mef",
+      "size": 296274696,
+      "fileType": "MEF",
+      "s3VersionId": "nJo4c4ozRsGbQMBQQDExdCguwBCmGjyh"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG16.mef",
+      "size": 296274696,
+      "fileType": "MEF",
+      "s3VersionId": "nJo4c4ozRsGbQMBQQDExdCguwBCmGjyh"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG17.mef",
+      "size": 317295576,
+      "fileType": "MEF",
+      "s3VersionId": "LN5fEfeWSQKNTUDvCd1KvJvyqJvQIBEM"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG18.mef",
+      "size": 307190320,
+      "fileType": "MEF",
+      "s3VersionId": "K9dDbUzBzu8hkppgB2ti6Wo2Ax__6BEX"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG19.mef",
+      "size": 305408784,
+      "fileType": "MEF",
+      "s3VersionId": "2nCWxBwDCGb5UPWh8ecUSzYtXqfXCPtB"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG2.mef",
+      "size": 300620040,
+      "fileType": "MEF",
+      "s3VersionId": "hSygIoKnYFIE5EwWBpf6B.qBOCixzjnl"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG20.mef",
+      "size": 321781552,
+      "fileType": "MEF",
+      "s3VersionId": "MOlDoDzacmcFLyX.5Qykgk89mw1MZIMI"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG21.mef",
+      "size": 311770552,
+      "fileType": "MEF",
+      "s3VersionId": "LXDxWD7t0E_Ln9h_ULeia7OXW.0kwxbp"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG22.mef",
+      "size": 321083048,
+      "fileType": "MEF",
+      "s3VersionId": "PJoe6QTxIiwKUS31El8VofzuDfUvEdgi"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG23.mef",
+      "size": 310314192,
+      "fileType": "MEF",
+      "s3VersionId": "W7AgLSoAWPnq0RRKYjExnChCNn2_3UwJ"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG24.mef",
+      "size": 300758256,
+      "fileType": "MEF",
+      "s3VersionId": "ZpwuOIVG3etPMTeeNdoaSISNwVZwe3GM"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG25.mef",
+      "size": 308907640,
+      "fileType": "MEF",
+      "s3VersionId": "QZkur9gInO7QDd9ffywxeLCJLYm2toyj"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG26.mef",
+      "size": 310093064,
+      "fileType": "MEF",
+      "s3VersionId": "Yeufg.8a9axSTnIOWrmo2Tr62ysc3btE"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG27.mef",
+      "size": 311455936,
+      "fileType": "MEF",
+      "s3VersionId": "yZ.Zktk26RYhIDmcAQD3B8PQ99.F61xR"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG28.mef",
+      "size": 322111128,
+      "fileType": "MEF",
+      "s3VersionId": "Tyw_TvZVPGtklLyzWuGc8tgCTmv.ttVK"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG29.mef",
+      "size": 320756496,
+      "fileType": "MEF",
+      "s3VersionId": "AIsl.fu32pDVnaL64YvEJvZGvK26R5MY"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG3.mef",
+      "size": 297044760,
+      "fileType": "MEF",
+      "s3VersionId": "3239e_t1J3IdEASxhVJUgzFrT942K0os"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG30.mef",
+      "size": 334884792,
+      "fileType": "MEF",
+      "s3VersionId": "pkOY9A8LGWldV9I_8fe_V6d95Ur_h8R9"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG31.mef",
+      "size": 344624536,
+      "fileType": "MEF",
+      "s3VersionId": "lZxOQwUdVPYRdqJKG.1Z4gyykM_T.ZmQ"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG32.mef",
+      "size": 317541888,
+      "fileType": "MEF",
+      "s3VersionId": "hD5sHVjkr3Wme35Ie5ZYoovuXH1coTAY"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG33.mef",
+      "size": 309551552,
+      "fileType": "MEF",
+      "s3VersionId": "e92ghckglImbEWj8pI7i1ULAzfrK3AQ3"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG34.mef",
+      "size": 321824912,
+      "fileType": "MEF",
+      "s3VersionId": "wf..sI2SjwUcAay7WUcqNXhYtU14Q8LN"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG35.mef",
+      "size": 317822792,
+      "fileType": "MEF",
+      "s3VersionId": "TTUyV8umNK7RK7TwZr74XIEvX1QQDrvq"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG35.mef",
+      "size": 317822792,
+      "fileType": "MEF",
+      "s3VersionId": "TTUyV8umNK7RK7TwZr74XIEvX1QQDrvq"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG36.mef",
+      "size": 307008344,
+      "fileType": "MEF",
+      "s3VersionId": "ZtMzUeE0LhZ1IjEwEsYul_wPnOaXger0"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG37.mef",
+      "size": 321585736,
+      "fileType": "MEF",
+      "s3VersionId": "Jf94LP4aNi0FxMmfrzoLoHTKHMTmIIJl"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG37.mef",
+      "size": 321585736,
+      "fileType": "MEF",
+      "s3VersionId": "Jf94LP4aNi0FxMmfrzoLoHTKHMTmIIJl"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG38.mef",
+      "size": 314907672,
+      "fileType": "MEF",
+      "s3VersionId": "v_IJCNA_dkIIlT4w7RzBWoF.IApmrMhX"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG38.mef",
+      "size": 314907672,
+      "fileType": "MEF",
+      "s3VersionId": "v_IJCNA_dkIIlT4w7RzBWoF.IApmrMhX"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG39.mef",
+      "size": 344324936,
+      "fileType": "MEF",
+      "s3VersionId": "1V6.T1Bf1VdibDf.9RMLPM2vpxOeGWYt"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG39.mef",
+      "size": 344324936,
+      "fileType": "MEF",
+      "s3VersionId": "1V6.T1Bf1VdibDf.9RMLPM2vpxOeGWYt"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG4.mef",
+      "size": 312814648,
+      "fileType": "MEF",
+      "s3VersionId": "zlqYAQXZ1fXXJb_5eVJZzZ5gHePosp1E"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG40.mef",
+      "size": 331641528,
+      "fileType": "MEF",
+      "s3VersionId": "bjFyH27pwgpaqPyGvO5iwrOe72Xb7Mii"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG41.mef",
+      "size": 346943784,
+      "fileType": "MEF",
+      "s3VersionId": "iFw6u_reB8hyAfXU0GVDlkTZzK.dTse4"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG42.mef",
+      "size": 315123480,
+      "fileType": "MEF",
+      "s3VersionId": "J_HMFOKUPux07VnUrKAsoTNg5a9bFprW"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG42.mef",
+      "size": 315123480,
+      "fileType": "MEF",
+      "s3VersionId": "J_HMFOKUPux07VnUrKAsoTNg5a9bFprW"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG43.mef",
+      "size": 333598192,
+      "fileType": "MEF",
+      "s3VersionId": "RH1n0DarvU1YhXzysUA9hhp3UBhsrZmp"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG43.mef",
+      "size": 333598192,
+      "fileType": "MEF",
+      "s3VersionId": "RH1n0DarvU1YhXzysUA9hhp3UBhsrZmp"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG44.mef",
+      "size": 331038696,
+      "fileType": "MEF",
+      "s3VersionId": "bzJbmZeI6QyYUQ1M3leNH8b36oO_pGMW"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG45.mef",
+      "size": 311463632,
+      "fileType": "MEF",
+      "s3VersionId": "uFmoniRMFymKP0Di.qm9ud_I3DAh34sl"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG45.mef",
+      "size": 311463632,
+      "fileType": "MEF",
+      "s3VersionId": "uFmoniRMFymKP0Di.qm9ud_I3DAh34sl"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG46.mef",
+      "size": 312616504,
+      "fileType": "MEF",
+      "s3VersionId": "C2qNfC3hDsZ045JyPNx0Wb5Cv1hEhGrQ"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG46.mef",
+      "size": 312616504,
+      "fileType": "MEF",
+      "s3VersionId": "C2qNfC3hDsZ045JyPNx0Wb5Cv1hEhGrQ"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG47.mef",
+      "size": 308913144,
+      "fileType": "MEF",
+      "s3VersionId": "F5aCuUqWh3gqaC0FCYiJdDyYa8Oj2UwT"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG48.mef",
+      "size": 308933408,
+      "fileType": "MEF",
+      "s3VersionId": "FpRHhMcQ1LEWfK4qZUdkV6_RzFNXbmGz"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG5.mef",
+      "size": 310000120,
+      "fileType": "MEF",
+      "s3VersionId": "lzm_EUYhKw4Yh96LacMB69k34JwYgZ40"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG6.mef",
+      "size": 299731184,
+      "fileType": "MEF",
+      "s3VersionId": "9Ts51q1_cbIlNT04KVbZBnJAYejbwUi1"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG6.mef",
+      "size": 299731184,
+      "fileType": "MEF",
+      "s3VersionId": "9Ts51q1_cbIlNT04KVbZBnJAYejbwUi1"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG7.mef",
+      "size": 304259240,
+      "fileType": "MEF",
+      "s3VersionId": "UtCp2Q3j.VEx9GnGbvUvn_aE6d34Qcjj"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG7.mef",
+      "size": 304259240,
+      "fileType": "MEF",
+      "s3VersionId": "UtCp2Q3j.VEx9GnGbvUvn_aE6d34Qcjj"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG8.mef",
+      "size": 309391096,
+      "fileType": "MEF",
+      "s3VersionId": "WPRe.Q3zil6TfWWtwYxCUlfxmMvvEZ1a"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG9.mef",
+      "size": 315737040,
+      "fileType": "MEF",
+      "s3VersionId": "vKJeUSeagVibmempylHjIm3T6UWlplPJ"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RFG9.mef",
+      "size": 315737040,
+      "fileType": "MEF",
+      "s3VersionId": "vKJeUSeagVibmempylHjIm3T6UWlplPJ"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG1.mef",
+      "size": 301365904,
+      "fileType": "MEF",
+      "s3VersionId": "ycA94X37D.di_hSw.gdbXal6Cv8Ml256"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG10.mef",
+      "size": 337006240,
+      "fileType": "MEF",
+      "s3VersionId": "nKADmc794IyYh.GDVL9cSvvdjWvWOGsR"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG11.mef",
+      "size": 311964680,
+      "fileType": "MEF",
+      "s3VersionId": "oSPxhSHsKdSOF.6BbyW0y.j3tuvrOmAd"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG11.mef",
+      "size": 311964680,
+      "fileType": "MEF",
+      "s3VersionId": "oSPxhSHsKdSOF.6BbyW0y.j3tuvrOmAd"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG12.mef",
+      "size": 335191368,
+      "fileType": "MEF",
+      "s3VersionId": "7vy5Hf9a8RXD2eNMW.igjCleMZA3KvdF"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG12.mef",
+      "size": 335191368,
+      "fileType": "MEF",
+      "s3VersionId": "7vy5Hf9a8RXD2eNMW.igjCleMZA3KvdF"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG13.mef",
+      "size": 309634088,
+      "fileType": "MEF",
+      "s3VersionId": "9L5LUVi.1pBmx7.QN3PGEtpkY5ufjDHy"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG13.mef",
+      "size": 309634088,
+      "fileType": "MEF",
+      "s3VersionId": "9L5LUVi.1pBmx7.QN3PGEtpkY5ufjDHy"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG14.mef",
+      "size": 312101864,
+      "fileType": "MEF",
+      "s3VersionId": "O_PkYok4IrETx.Wpo8qIx.A2aQ8SMFYK"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG15.mef",
+      "size": 348221168,
+      "fileType": "MEF",
+      "s3VersionId": "11mtFvMBrEb_aPVvAvng6TLFRzA.pr4I"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG16.mef",
+      "size": 332804552,
+      "fileType": "MEF",
+      "s3VersionId": "6l1uxD_tS23igyLgvNR3.CETNfyACaCp"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG16.mef",
+      "size": 332804552,
+      "fileType": "MEF",
+      "s3VersionId": "6l1uxD_tS23igyLgvNR3.CETNfyACaCp"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG17.mef",
+      "size": 340923920,
+      "fileType": "MEF",
+      "s3VersionId": "YHMVT_Y7ciQH689dr2nCiLpAqsDgLkrK"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG17.mef",
+      "size": 340923920,
+      "fileType": "MEF",
+      "s3VersionId": "YHMVT_Y7ciQH689dr2nCiLpAqsDgLkrK"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG18.mef",
+      "size": 335835576,
+      "fileType": "MEF",
+      "s3VersionId": "uqMah5BJ8gFANEBXv40TVWgOJmNigi4V"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG18.mef",
+      "size": 335835576,
+      "fileType": "MEF",
+      "s3VersionId": "uqMah5BJ8gFANEBXv40TVWgOJmNigi4V"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG19.mef",
+      "size": 326115096,
+      "fileType": "MEF",
+      "s3VersionId": "X5Ew4O8lKomfsu.lDvRrI9JNrzp2vJhI"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG19.mef",
+      "size": 326115096,
+      "fileType": "MEF",
+      "s3VersionId": "X5Ew4O8lKomfsu.lDvRrI9JNrzp2vJhI"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG2.mef",
+      "size": 305479432,
+      "fileType": "MEF",
+      "s3VersionId": "c63iLyp_Aq13YP7eswvVfAsBlf5Uf9gF"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG20.mef",
+      "size": 315062152,
+      "fileType": "MEF",
+      "s3VersionId": "vuhcRBYGm9G4KF_nP8_kCEbOqGskJoqU"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG21.mef",
+      "size": 320829848,
+      "fileType": "MEF",
+      "s3VersionId": "3KfgH1u5aHPN24BnwW584Hh57kPCqwrg"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG21.mef",
+      "size": 320829848,
+      "fileType": "MEF",
+      "s3VersionId": "3KfgH1u5aHPN24BnwW584Hh57kPCqwrg"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG22.mef",
+      "size": 327140544,
+      "fileType": "MEF",
+      "s3VersionId": "DWJXN6gUOGBnvmLdjKs1_M1qP5_MwlzQ"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG22.mef",
+      "size": 327140544,
+      "fileType": "MEF",
+      "s3VersionId": "DWJXN6gUOGBnvmLdjKs1_M1qP5_MwlzQ"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG23.mef",
+      "size": 318041464,
+      "fileType": "MEF",
+      "s3VersionId": "4HnXmyXkNSPtJuXTnxgrVscl5iQ1otPK"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG23.mef",
+      "size": 318041464,
+      "fileType": "MEF",
+      "s3VersionId": "4HnXmyXkNSPtJuXTnxgrVscl5iQ1otPK"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG24.mef",
+      "size": 326964672,
+      "fileType": "MEF",
+      "s3VersionId": "02uqCdtg5ESAyJYEkMv5wOJc6DTNKYzq"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG3.mef",
+      "size": 323015784,
+      "fileType": "MEF",
+      "s3VersionId": "8vOkZcT._hWPmWAOFChrbzRCooSPtqLL"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG3.mef",
+      "size": 323015784,
+      "fileType": "MEF",
+      "s3VersionId": "8vOkZcT._hWPmWAOFChrbzRCooSPtqLL"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG4.mef",
+      "size": 307320616,
+      "fileType": "MEF",
+      "s3VersionId": "Sxm1K3eQxZXkMBc7IFl8hd12mrCVrlfK"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG5.mef",
+      "size": 312777952,
+      "fileType": "MEF",
+      "s3VersionId": "saIxeKCq8abvhM5ER636Zl2k5BKFXajX"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG6.mef",
+      "size": 303181560,
+      "fileType": "MEF",
+      "s3VersionId": "gE.iShpiYWaa4bR1Dsmku9Bj5ALe8bgS"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG6.mef",
+      "size": 303181560,
+      "fileType": "MEF",
+      "s3VersionId": "gE.iShpiYWaa4bR1Dsmku9Bj5ALe8bgS"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG7.mef",
+      "size": 326147296,
+      "fileType": "MEF",
+      "s3VersionId": "0HVbP0sLZSV4IXS11XMI_gTCl.hTWHOz"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG7.mef",
+      "size": 326147296,
+      "fileType": "MEF",
+      "s3VersionId": "0HVbP0sLZSV4IXS11XMI_gTCl.hTWHOz"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG8.mef",
+      "size": 321822368,
+      "fileType": "MEF",
+      "s3VersionId": "rY2BU67hQcAtbnWmHKFpIf4.1ODnpb7C"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG8.mef",
+      "size": 321822368,
+      "fileType": "MEF",
+      "s3VersionId": "rY2BU67hQcAtbnWmHKFpIf4.1ODnpb7C"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPG9.mef",
+      "size": 325859328,
+      "fileType": "MEF",
+      "s3VersionId": "iT_unAGXMJM3nrPTwWCMiu1VwLGvFDxk"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPT1.mef",
+      "size": 314956984,
+      "fileType": "MEF",
+      "s3VersionId": "0X2Svx45ChBS7VlXrna6RlsQClYVUnBi"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPT2.mef",
+      "size": 312887688,
+      "fileType": "MEF",
+      "s3VersionId": "8NkOE4NAjywSSMZSS926ZQTmGUEMqnqq"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPT2.mef",
+      "size": 312887688,
+      "fileType": "MEF",
+      "s3VersionId": "8NkOE4NAjywSSMZSS926ZQTmGUEMqnqq"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPT3.mef",
+      "size": 311117552,
+      "fileType": "MEF",
+      "s3VersionId": "BfcbsjXKqstwiSKR.UJocsrDEzS7Hg3p"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPT3.mef",
+      "size": 311117552,
+      "fileType": "MEF",
+      "s3VersionId": "BfcbsjXKqstwiSKR.UJocsrDEzS7Hg3p"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RPT4.mef",
+      "size": 320730584,
+      "fileType": "MEF",
+      "s3VersionId": "tev1.HNwr_7Oj7ElcBgdzwqtu0zYsFLY"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTD1.mef",
+      "size": 304644856,
+      "fileType": "MEF",
+      "s3VersionId": "Yp1Fl1glhQaBrS.Ejk7i0XG47guLHOTr"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTD2.mef",
+      "size": 293574800,
+      "fileType": "MEF",
+      "s3VersionId": "CP9zxb97HMkCJUjZ9_MKL05fvPD9XdrY"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTD2.mef",
+      "size": 293574800,
+      "fileType": "MEF",
+      "s3VersionId": "CP9zxb97HMkCJUjZ9_MKL05fvPD9XdrY"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTD3.mef",
+      "size": 292986064,
+      "fileType": "MEF",
+      "s3VersionId": "LMRvS_UZ.gcnQOlG_ilJTumZgSIBZCjE"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTD4.mef",
+      "size": 295374736,
+      "fileType": "MEF",
+      "s3VersionId": "aZ9g0Zo45w3bWVT9KSHypL49xuch6IAj"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTD4.mef",
+      "size": 295374736,
+      "fileType": "MEF",
+      "s3VersionId": "aZ9g0Zo45w3bWVT9KSHypL49xuch6IAj"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG1.mef",
+      "size": 292731608,
+      "fileType": "MEF",
+      "s3VersionId": "PzZDhGuP_daIPyk1X0hRz4YJIgb_Dl7G"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG10.mef",
+      "size": 296758200,
+      "fileType": "MEF",
+      "s3VersionId": "mh5POlF2NlTwSzm4tm3ke9XUz1lmGh_A"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG11.mef",
+      "size": 312905040,
+      "fileType": "MEF",
+      "s3VersionId": "8z5WteTLDxS.2707987kBCK4PgQ_iE.g"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG12.mef",
+      "size": 290252416,
+      "fileType": "MEF",
+      "s3VersionId": "msTVaTV8Ir3VWZCjHwi7icrAWQwoGQ3u"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG13.mef",
+      "size": 296383392,
+      "fileType": "MEF",
+      "s3VersionId": "nFHX.Q1jRUFUYObwC4j.D62ZkhPMbzeR"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG13.mef",
+      "size": 296383392,
+      "fileType": "MEF",
+      "s3VersionId": "nFHX.Q1jRUFUYObwC4j.D62ZkhPMbzeR"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG14.mef",
+      "size": 302041968,
+      "fileType": "MEF",
+      "s3VersionId": "69zVibj2VqFvACcbk3PybGJNEGFSJADI"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG14.mef",
+      "size": 302041968,
+      "fileType": "MEF",
+      "s3VersionId": "69zVibj2VqFvACcbk3PybGJNEGFSJADI"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG15.mef",
+      "size": 293349640,
+      "fileType": "MEF",
+      "s3VersionId": "X.GN1PqV.KHu_oytptE96uozaLdvV6jS"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG16.mef",
+      "size": 304456048,
+      "fileType": "MEF",
+      "s3VersionId": "pBXn4Ct_ezGtKZV1u.2am7b6tdDFae8I"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG16.mef",
+      "size": 304456048,
+      "fileType": "MEF",
+      "s3VersionId": "pBXn4Ct_ezGtKZV1u.2am7b6tdDFae8I"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG17.mef",
+      "size": 300663528,
+      "fileType": "MEF",
+      "s3VersionId": "cFV1Z71kpOW_StBeA31rxX0rmW_Dj30D"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG18.mef",
+      "size": 306800528,
+      "fileType": "MEF",
+      "s3VersionId": "Wtrz63Di2JXD9vdHC1tYVWT4fWGAbELb"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG18.mef",
+      "size": 306800528,
+      "fileType": "MEF",
+      "s3VersionId": "Wtrz63Di2JXD9vdHC1tYVWT4fWGAbELb"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG19.mef",
+      "size": 295533320,
+      "fileType": "MEF",
+      "s3VersionId": "JVoJt04wBZluWNppmhxHgG4JKfjK2wFM"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG2.mef",
+      "size": 309995640,
+      "fileType": "MEF",
+      "s3VersionId": "w.sdhXVEECxYj_oS.oEibYMOj13bbr.A"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG20.mef",
+      "size": 302097784,
+      "fileType": "MEF",
+      "s3VersionId": "hrmhhWlRrX_Cfg7ZxazxlXzLWpckT4ed"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG20.mef",
+      "size": 302097784,
+      "fileType": "MEF",
+      "s3VersionId": "hrmhhWlRrX_Cfg7ZxazxlXzLWpckT4ed"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG21.mef",
+      "size": 292024640,
+      "fileType": "MEF",
+      "s3VersionId": "a_sunCnYju9cEsubmPn6gPkReXLKu8Fa"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG22.mef",
+      "size": 301081464,
+      "fileType": "MEF",
+      "s3VersionId": "gNdDAPvFdbSv_WWjKcbeJzFCRcMMTATD"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG23.mef",
+      "size": 323745408,
+      "fileType": "MEF",
+      "s3VersionId": "azM7x13sHfCqL8NVYPlshJGyIaVeY1p5"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG24.mef",
+      "size": 307429872,
+      "fileType": "MEF",
+      "s3VersionId": "3D2WTxBEGYBX_VqIofRRiBVQEtZHyaub"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG3.mef",
+      "size": 311693800,
+      "fileType": "MEF",
+      "s3VersionId": "qj7aT4Soez0ifAcqVl3oLylRLHoceMx6"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG4.mef",
+      "size": 304764496,
+      "fileType": "MEF",
+      "s3VersionId": "R9k10YqOTWdfvFaTcUVIIqqkhvEOtnY3"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG5.mef",
+      "size": 295615848,
+      "fileType": "MEF",
+      "s3VersionId": "1qVyMhesTUSwLC4dsEVm5V.hTMbEHNK2"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG6.mef",
+      "size": 299554472,
+      "fileType": "MEF",
+      "s3VersionId": "qQNAHAFuvLRk6EicoDgkZfNvkNnYaAy8"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG7.mef",
+      "size": 295248592,
+      "fileType": "MEF",
+      "s3VersionId": "nDZXaDw5IswLXlwkqXO_VYPrWHEUdbUE"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG7.mef",
+      "size": 295248592,
+      "fileType": "MEF",
+      "s3VersionId": "nDZXaDw5IswLXlwkqXO_VYPrWHEUdbUE"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG8.mef",
+      "size": 306511264,
+      "fileType": "MEF",
+      "s3VersionId": "CBtIgq8j9u8lGE7V9W.l2QrcuUV4.WbH"
+    },
+    {
+      "path": "packages/EEG/Study 3 IEEG/RTG9.mef",
+      "size": 299250104,
+      "fileType": "MEF",
+      "s3VersionId": "Ao_t0AOhm8Wg892whZCftYu.BJkG3m_Z"
+    },
+    {
+      "path": "packages/EEG/annotations.xml",
+      "size": 235627,
+      "fileType": "XML",
+      "s3VersionId": "9L.fzNCXEriZt1qS4geg6Jn9C2w_FeXX"
+    },
+    {
+      "path": "metadata.json",
+      "size": 29034,
+      "fileType": "Json"
+    },
+    {
+      "path": "banner.jpg",
+      "size": 25505,
+      "fileType": "JPEG",
+      "s3VersionId": "rdK3xaT5M2f794cq38xZMCIB34SjTMZ6"
+    },
+    {
+      "path": "readme.md",
+      "size": 2033,
+      "fileType": "Markdown",
+      "s3VersionId": "xWJVRROsdX1RhLfdUIgUDHnKttTxEVmW"
+    },
+    {
+      "path": "graph/clinical_report.csv",
+      "size": 20086,
+      "fileType": "CSV",
+      "s3VersionId": "XHSYB1YbRgWj5X4Iryv1hH6qvoF_8ufh"
+    },
+    {
+      "path": "graph/ct_details.csv",
+      "size": 181,
+      "fileType": "CSV",
+      "s3VersionId": "_mVSL.g1EPRztKQ5BaL5nwYO0nwPKyjU"
+    },
+    {
+      "path": "graph/eeg_study.csv",
+      "size": 173,
+      "fileType": "CSV",
+      "s3VersionId": "_HshSGxvhbzWE5PA.pgc8CvzBbLp0uUs"
+    },
+    {
+      "path": "graph/imaging_study.csv",
+      "size": 842,
+      "fileType": "CSV",
+      "s3VersionId": "59NXGmFNfpPfV0xnbPzfjJoF4B5gG9U1"
+    },
+    {
+      "path": "graph/mr_details.csv",
+      "size": 530,
+      "fileType": "CSV",
+      "s3VersionId": "iPNwz1YSXKmMt1C2us1OUMHINnEowOom"
+    },
+    {
+      "path": "graph/packages.csv",
+      "size": 86,
+      "fileType": "CSV",
+      "s3VersionId": "PrF.Y1I9wEfjIRwHtadpEZ0GnELQbEnu"
+    },
+    {
+      "path": "graph/patient.csv",
+      "size": 285,
+      "fileType": "CSV",
+      "s3VersionId": "lsGmNTirpKAGGH5UtxxpC4f2WbQwnczt"
+    },
+    {
+      "path": "graph/pt_details.csv",
+      "size": 137,
+      "fileType": "CSV",
+      "s3VersionId": "hhaDvvb9l_K8CXbgdHmO8q2RPiw.TP6C"
+    },
+    {
+      "path": "graph/relationships.csv",
+      "size": 3747,
+      "fileType": "CSV",
+      "s3VersionId": "ngmTNCp1bbYTm9PvgaZ9i7KeDeJqmJGv"
+    },
+    {
+      "path": "graph/schema.json",
+      "size": 16094,
+      "fileType": "Json",
+      "s3VersionId": "_BribC6sqSNWa1JA8UjtGenruBoY5Mje"
+    },
+    {
+      "path": "graph/seizures.csv",
+      "size": 1353,
+      "fileType": "CSV",
+      "s3VersionId": "SemlujRcnXf8z7Kt2RGJKb6EvR1xONKl"
+    }
+  ],
+  "pennsieveSchemaVersion": 1
+}

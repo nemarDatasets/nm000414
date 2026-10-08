@@ -1,0 +1,2 @@
+id,label,echo_time,flip_angle,inversion_time,magnetic_field_strength,percent_phase_fov,protocol_name,repetition_time,scan_options,scanning_sequence,sequence_variant,time_point
+dea4d42d-0b44-46d6-b429-a517c25d7a36,mr_details,10.0,25.0,,1.5,75.0,"BRAIN FOR SEIZURE\\4",23.0,"FC\\VASCTOF_GEMS",RM,None,Pre-Implant

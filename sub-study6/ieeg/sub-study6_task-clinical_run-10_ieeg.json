@@ -1,0 +1,27 @@
+{
+  "TaskName": "clinical",
+  "TaskDescription": "Long-term clinical intracranial EEG monitoring in the epilepsy monitoring unit (pre-surgical evaluation); spontaneous seizures.",
+  "SamplingFrequency": 500,
+  "PowerLineFrequency": 60,
+  "RecordingDuration": 76.1,
+  "RecordingType": "continuous",
+  "iEEGReference": "n/a",
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": {
+    "HighpassFilter": {
+      "CutoffFrequency": 0.1
+    },
+    "LowpassFilter": {
+      "CutoffFrequency": 500
+    }
+  },
+  "Manufacturer": "XLTek",
+  "ManufacturersModelName": "EEG 128",
+  "InstitutionName": "Mayo Clinic",
+  "InstitutionAddress": "Rochester, MN, USA",
+  "ECOGChannelCount": 88,
+  "SEEGChannelCount": 0,
+  "iEEGPlacementScheme": "clinically determined",
+  "iEEGGround": "n/a",
+  "ElectricalStimulation": false
+}

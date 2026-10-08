@@ -1,0 +1,105 @@
+path	size	sha256
+graph/clinical_report.csv	22018	
+graph/ct_details.csv	177	
+graph/eeg_study.csv	172	
+graph/imaging_study.csv	662	
+graph/mr_details.csv	351	
+graph/packages.csv	86	
+graph/patient.csv	287	
+graph/pt_details.csv	137	
+graph/relationships.csv	2055	
+graph/schema.json	15913	
+graph/seizures.csv	479	
+packages/EEG/Study 5 IEEG/AD1.mef	93225984	
+packages/EEG/Study 5 IEEG/AD2.mef	92744840	
+packages/EEG/Study 5 IEEG/AD3.mef	91785504	
+packages/EEG/Study 5 IEEG/AD4.mef	92356512	
+packages/EEG/Study 5 IEEG/ATS1.mef	93629944	
+packages/EEG/Study 5 IEEG/ATS2.mef	93015296	
+packages/EEG/Study 5 IEEG/ATS3.mef	96451000	
+packages/EEG/Study 5 IEEG/ATS4.mef	95793808	
+packages/EEG/Study 5 IEEG/ITS1.mef	93660296	
+packages/EEG/Study 5 IEEG/ITS2.mef	92973160	
+packages/EEG/Study 5 IEEG/ITS3.mef	98527768	
+packages/EEG/Study 5 IEEG/ITS4.mef	95663440	
+packages/EEG/Study 5 IEEG/LFS1.mef	93391224	
+packages/EEG/Study 5 IEEG/LFS2.mef	97257848	
+packages/EEG/Study 5 IEEG/LFS3.mef	94743520	
+packages/EEG/Study 5 IEEG/LFS4.mef	100229728	
+packages/EEG/Study 5 IEEG/LFS5.mef	101569616	
+packages/EEG/Study 5 IEEG/LFS6.mef	94627480	
+packages/EEG/Study 5 IEEG/LFS7.mef	96125856	
+packages/EEG/Study 5 IEEG/LFS8.mef	95952448	
+packages/EEG/Study 5 IEEG/LTG10.mef	96642752	
+packages/EEG/Study 5 IEEG/LTG11.mef	102757720	
+packages/EEG/Study 5 IEEG/LTG12.mef	99665112	
+packages/EEG/Study 5 IEEG/LTG13.mef	101101528	
+packages/EEG/Study 5 IEEG/LTG14.mef	99942744	
+packages/EEG/Study 5 IEEG/LTG15.mef	98935048	
+packages/EEG/Study 5 IEEG/LTG16.mef	92854776	
+packages/EEG/Study 5 IEEG/LTG17.mef	96228752	
+packages/EEG/Study 5 IEEG/LTG18.mef	97483784	
+packages/EEG/Study 5 IEEG/LTG19.mef	101353656	
+packages/EEG/Study 5 IEEG/LTG1.mef	105274248	
+packages/EEG/Study 5 IEEG/LTG20.mef	99633480	
+packages/EEG/Study 5 IEEG/LTG21.mef	101675016	
+packages/EEG/Study 5 IEEG/LTG22.mef	102409024	
+packages/EEG/Study 5 IEEG/LTG23.mef	100005672	
+packages/EEG/Study 5 IEEG/LTG24.mef	96711152	
+packages/EEG/Study 5 IEEG/LTG25.mef	101051496	
+packages/EEG/Study 5 IEEG/LTG26.mef	99058128	
+packages/EEG/Study 5 IEEG/LTG27.mef	99507096	
+packages/EEG/Study 5 IEEG/LTG28.mef	100297792	
+packages/EEG/Study 5 IEEG/LTG29.mef	96846832	
+packages/EEG/Study 5 IEEG/LTG2.mef	100203968	
+packages/EEG/Study 5 IEEG/LTG30.mef	102925688	
+packages/EEG/Study 5 IEEG/LTG31.mef	100579928	
+packages/EEG/Study 5 IEEG/LTG32.mef	95857064	
+packages/EEG/Study 5 IEEG/LTG33.mef	99804784	
+packages/EEG/Study 5 IEEG/LTG34.mef	99439400	
+packages/EEG/Study 5 IEEG/LTG35.mef	96669752	
+packages/EEG/Study 5 IEEG/LTG36.mef	98952160	
+packages/EEG/Study 5 IEEG/LTG37.mef	93810968	
+packages/EEG/Study 5 IEEG/LTG38.mef	100885552	
+packages/EEG/Study 5 IEEG/LTG39.mef	100066232	
+packages/EEG/Study 5 IEEG/LTG3.mef	95377504	
+packages/EEG/Study 5 IEEG/LTG40.mef	102442504	
+packages/EEG/Study 5 IEEG/LTG41.mef	105609264	
+packages/EEG/Study 5 IEEG/LTG42.mef	101057272	
+packages/EEG/Study 5 IEEG/LTG43.mef	96359136	
+packages/EEG/Study 5 IEEG/LTG44.mef	103771792	
+packages/EEG/Study 5 IEEG/LTG45.mef	98693192	
+packages/EEG/Study 5 IEEG/LTG46.mef	95318520	
+packages/EEG/Study 5 IEEG/LTG47.mef	96397320	
+packages/EEG/Study 5 IEEG/LTG48.mef	104719624	
+packages/EEG/Study 5 IEEG/LTG49.mef	101409240	
+packages/EEG/Study 5 IEEG/LTG4.mef	96639024	
+packages/EEG/Study 5 IEEG/LTG50.mef	96620768	
+packages/EEG/Study 5 IEEG/LTG51.mef	94920952	
+packages/EEG/Study 5 IEEG/LTG52.mef	98876048	
+packages/EEG/Study 5 IEEG/LTG53.mef	97330656	
+packages/EEG/Study 5 IEEG/LTG54.mef	94884008	
+packages/EEG/Study 5 IEEG/LTG55.mef	98034440	
+packages/EEG/Study 5 IEEG/LTG56.mef	96877048	
+packages/EEG/Study 5 IEEG/LTG57.mef	105235688	
+packages/EEG/Study 5 IEEG/LTG58.mef	94581528	
+packages/EEG/Study 5 IEEG/LTG59.mef	95799744	
+packages/EEG/Study 5 IEEG/LTG5.mef	96592104	
+packages/EEG/Study 5 IEEG/LTG60.mef	98455200	
+packages/EEG/Study 5 IEEG/LTG61.mef	96822288	
+packages/EEG/Study 5 IEEG/LTG62.mef	95212056	
+packages/EEG/Study 5 IEEG/LTG63.mef	101649280	
+packages/EEG/Study 5 IEEG/LTG64.mef	92365712	
+packages/EEG/Study 5 IEEG/LTG6.mef	97150240	
+packages/EEG/Study 5 IEEG/LTG7.mef	99404320	
+packages/EEG/Study 5 IEEG/LTG8.mef	102470992	
+packages/EEG/Study 5 IEEG/LTG9.mef	98423568	
+packages/EEG/Study 5 IEEG/PD1.mef	92491160	
+packages/EEG/Study 5 IEEG/PD2.mef	93423472	
+packages/EEG/Study 5 IEEG/PD3.mef	93791168	
+packages/EEG/Study 5 IEEG/PD4.mef	94952528	
+packages/EEG/annotations.xml	59263	
+packages/Cartoon Map.pdf	205722	
+banner.jpg	24549	
+metadata.json	18329	
+readme.md	2340	

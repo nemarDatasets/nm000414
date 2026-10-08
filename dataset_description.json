@@ -1,0 +1,55 @@
+{
+  "Name": "Intracranial EEG Epilepsy - Studies 3, 5 and 6 (Mayo Clinic; IEEG.org)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "License": "CC0-1.0",
+  "Authors": [
+    "Jenaye Johnson",
+    "Gregory Worrell",
+    "Brian Litt"
+  ],
+  "Acknowledgements": "Records published on Pennsieve Discover 2019-07-12 (publisher Blackfynn, Inc; source organization Mayo); data originally shared through the IEEG.org portal (Mayo Clinic studies 021, 023, 024). MEF 2.0 decoding uses mef_lib_2_1 (Mayo Systems Electrophysiology Laboratory, Apache-2.0).",
+  "HowToAcknowledge": "Cite the Pennsieve datasets: Intracranial EEG Epilepsy - Study 3 (https://doi.org/10.26275/psj7-wggf), Study 5 (https://doi.org/10.26275/hqyv-oagj) and Study 6 (https://doi.org/10.26275/pfxu-irqf).",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.26275/psj7-wggf",
+    "https://doi.org/10.26275/hqyv-oagj",
+    "https://doi.org/10.26275/pfxu-irqf",
+    "https://discover.pennsieve.io/datasets/14",
+    "https://discover.pennsieve.io/datasets/13",
+    "https://discover.pennsieve.io/datasets/15",
+    "https://www.ieeg.org",
+    "https://github.com/benbrinkmann/mef_lib_2_1"
+  ],
+  "Keywords": [
+    "epilepsy",
+    "eeg",
+    "intracranial",
+    "grid electrodes",
+    "strip electrodes",
+    "depth electrodes",
+    "seizure"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "b3w5_convert_mayo.py + mef2dump (NEMAR conversion)",
+      "Description": "MEF 2.0 decoded with mef_lib_2_1 (block CRCs validated), runs split at MEF discontinuities, written as BrainVision INT_32 (lossless), every sample compared with the decoded MEF."
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.26275/psj7-wggf",
+      "URL": "https://discover.pennsieve.io/datasets/14/version/1",
+      "Version": "1"
+    },
+    {
+      "DOI": "doi:10.26275/hqyv-oagj",
+      "URL": "https://discover.pennsieve.io/datasets/13/version/1",
+      "Version": "1"
+    },
+    {
+      "DOI": "doi:10.26275/pfxu-irqf",
+      "URL": "https://discover.pennsieve.io/datasets/15/version/1",
+      "Version": "1"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+id,label,date,seizure_layer,seizure_start_time,seizure_stop_time,seizure_type
+0fed3d0a-4d9f-4a38-aa2e-d151ac1082b5,seizures,2000-01-01T00:00:00.000Z,,00:21:39,00:22:34,Clinical
+79a771eb-2ce7-4444-9d19-81ee66e1f1f1,seizures,2000-01-01T00:00:00.000Z,,01:20:59,01:22:27,Clinical
+13bae3ab-c261-4681-9784-129a843f7a4e,seizures,2000-01-01T00:00:00.000Z,,04:45:07,04:46:39,Clinical
+e695cb4d-e13a-4c4a-8a39-6461e2773cb9,seizures,2000-01-01T00:00:00.000Z,,21:04:47,21:05:53,Clinical

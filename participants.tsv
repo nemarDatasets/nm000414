@@ -1,0 +1,4 @@
+participant_id	age	sex	handedness	age_at_onset	ieeg_portal_study	pennsieve_dataset	seizure_type	ilae_surgical_outcome	brain_resected	prior_resection
+sub-study3	21	M	R	13	Study 021	14 (doi:10.26275/psj7-wggf)	Focal Partial-Secondarily generalized tonic-clonic	Class 1: Completely seizure free; no auras	true	n/a
+sub-study5	16	M	R	1	Study 023	13 (doi:10.26275/hqyv-oagj)	Focal Complex partial-endpoint of seizure- not evolving to secondary generalized	Class 1: Completely seizure free; no auras	n/a	n/a
+sub-study6	23	F	R	9	Study 024	15 (doi:10.26275/pfxu-irqf)	Focal Complex partial-endpoint of seizure- not evolving to secondary generalized	n/a	n/a	n/a

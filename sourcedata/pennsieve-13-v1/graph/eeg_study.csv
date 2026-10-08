@@ -1,0 +1,2 @@
+id,label,number_of_channels,sampling_rate,study_type,type_of_electrodes
+04f08385-b356-4e59-aae9-508d01a2f8f3,eeg_study,88,500.0,Intracranial EEG,"grid, strip, and depth"

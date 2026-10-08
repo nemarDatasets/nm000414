@@ -1,0 +1,85 @@
+# Intracranial EEG Epilepsy - Studies 3, 5 and 6 (Mayo Clinic, IEEG.org)
+
+## Overview
+Long-term clinical intracranial EEG (subdural grids/strips and depth electrodes) from three adults/adolescents with drug-resistant
+epilepsy recorded at Mayo Clinic, Rochester, MN, with expert seizure annotations. Each Pennsieve record ("Intracranial EEG
+Epilepsy - Study 3/5/6", published 2019-07-12, licence "Creative Commons Zero 1.0 Universal", creator Jenaye Johnson,
+contributors Gregory Worrell and Brian Litt) holds one patient, originally shared on the IEEG.org portal. Record description:
+"Data for a patient with epilepsy obtained for clinical treatment and collected for research, consisting of a large
+intracranial EEG dataset ... with multiple seizures."
+
+| participant | record | IEEG.org study | channels | runs | hours | annotations |
+|---|---|---|---|---|---|---|
+| sub-study3 | Study 3 (Pennsieve 14, doi:10.26275/psj7-wggf) | Study 021 | 108 (104 ECOG, 4 SEEG) | 16 | 154.7 | 13 (13 inside runs) |
+| sub-study5 | Study 5 (Pennsieve 13, doi:10.26275/hqyv-oagj) | Study 023 | 88 (80 ECOG, 8 SEEG) | 7 | 47.5 | 4 (4 inside runs) |
+| sub-study6 | Study 6 (Pennsieve 15, doi:10.26275/pfxu-irqf) | Study 024 | 88 (88 ECOG, 0 SEEG) | 18 | 194.5 | 19 (19 inside runs) |
+
+## Data
+- `sub-*/ieeg/*_task-clinical_run-NN_ieeg.vhdr/.eeg/.vmrk`: BrainVision, INT_32, 500 Hz, the MEF integer samples unchanged
+  with resolution = MEF voltage conversion factor (0.2658 µV per count). Acquisition system "XLTek EEG 128"; hardware filter
+  settings from the MEF headers (0.1 Hz high-pass; low-pass field 500 Hz as stored). One run per continuous MEF segment: the
+  MEF files flag recording discontinuities, and each run starts at one. `sub-*_scans.tsv` gives each run's start offset in
+  seconds from the start of the recording (calendar times are not released; see Privacy).
+- `_channels.tsv`: channel type from the record readme's electrode description: depth electrodes SEEG (Study 3: RTD; Study 5:
+  AD, PD), grids and strips ECOG. `_electrodes.tsv`: names only (no coordinates are released; an electrode diagram is in
+  sourcedata `packages/Cartoon Map.pdf`).
+- `_events.tsv`: every annotation of the IEEG.org layer (`packages/EEG/annotations.xml`: type, layer, annotator, channels),
+  placed with the MEF block timestamps. Timing note: within a run the block timestamps deviate from the nominal 500 Hz clock
+  (per run: sub-study3 run-01: max |block timestamp - nominal| = 0.794 s over 5.96 h; sub-study3 run-02: max |block timestamp - nominal| = 0.777 s over 15.67 h; sub-study3 run-03: max |block timestamp - nominal| = 1.673 s over 6.47 h; sub-study3 run-04: max |block timestamp - nominal| = 0.257 s over 1.59 h; sub-study3 run-05: max |block timestamp - nominal| = 1.072 s over 24.03 h; sub-study3 run-06: max |block timestamp - nominal| = 0.884 s over 17.63 h; sub-study3 run-07: max |block timestamp - nominal| = 0.162 s over 3.22 h; sub-study3 run-08: max |block timestamp - nominal| = 1.097 s over 2.55 h; sub-study3 run-09: max |block timestamp - nominal| = 0.625 s over 24.17 h; sub-study3 run-10: max |block timestamp - nominal| = 0.762 s over 24.61 h; sub-study3 run-11: max |block timestamp - nominal| = 0.000 s over 0.01 h; sub-study3 run-12: max |block timestamp - nominal| = 0.316 s over 2.58 h; sub-study3 run-13: max |block timestamp - nominal| = 1.098 s over 13.68 h; sub-study3 run-14: max |block timestamp - nominal| = 0.969 s over 7.27 h; sub-study3 run-15: max |block timestamp - nominal| = 0.608 s over 4.78 h; sub-study3 run-16: max |block timestamp - nominal| = 0.049 s over 0.53 h; sub-study5 run-01: max |block timestamp - nominal| = 0.002 s over 0.01 h; sub-study5 run-02: max |block timestamp - nominal| = 0.084 s over 0.24 h; sub-study5 run-03: max |block timestamp - nominal| = 0.990 s over 2.22 h; sub-study5 run-04: max |block timestamp - nominal| = 1.014 s over 3.31 h; sub-study5 run-05: max |block timestamp - nominal| = 1.853 s over 9.02 h; sub-study5 run-06: max |block timestamp - nominal| = 4.295 s over 24.07 h; sub-study5 run-07: max |block timestamp - nominal| = 1.677 s over 8.61 h; sub-study6 run-01: max |block timestamp - nominal| = 0.380 s over 1.00 h; sub-study6 run-02: max |block timestamp - nominal| = 0.000 s over 0.03 h; sub-study6 run-03: max |block timestamp - nominal| = 0.132 s over 11.87 h; sub-study6 run-04: max |block timestamp - nominal| = 0.114 s over 4.93 h; sub-study6 run-05: max |block timestamp - nominal| = 0.298 s over 14.96 h; sub-study6 run-06: max |block timestamp - nominal| = 0.202 s over 4.16 h; sub-study6 run-07: max |block timestamp - nominal| = 0.354 s over 24.86 h; sub-study6 run-08: max |block timestamp - nominal| = 0.382 s over 22.94 h; sub-study6 run-09: max |block timestamp - nominal| = 0.546 s over 23.77 h; sub-study6 run-10: max |block timestamp - nominal| = 0.004 s over 0.02 h; sub-study6 run-11: max |block timestamp - nominal| = 0.018 s over 0.73 h; sub-study6 run-12: max |block timestamp - nominal| = 0.396 s over 24.10 h; sub-study6 run-13: max |block timestamp - nominal| = 0.874 s over 4.55 h; sub-study6 run-14: max |block timestamp - nominal| = 0.018 s over 0.21 h; sub-study6 run-15: max |block timestamp - nominal| = 0.094 s over 0.63 h; sub-study6 run-16: max |block timestamp - nominal| = 2.400 s over 14.55 h; sub-study6 run-17: max |block timestamp - nominal| = 0.301 s over 23.72 h; sub-study6 run-18: max |block timestamp - nominal| = 3.393 s over 17.49 h); onsets follow the timestamps. All annotations fall inside a run.
+- `participants.tsv`: age, sex, handedness and age at onset from the record readmes; seizure type, ILAE outcome and resection
+  fields from `graph/patient.csv`.
+- `sourcedata/pennsieve-<id>-v1/`: the complete records: the MEF 2.0 files byte-identical (`packages/EEG/<Study> IEEG/*.mef`),
+  `packages/EEG/annotations.xml`, `packages/Cartoon Map.pdf`, the Pennsieve graph CSVs (patient, EEG study, seizures,
+  imaging studies, MR/CT details, clinical reports), readme, metadata.json, banner and the Pennsieve file listing with
+  checksums. `date_scrub.tsv` lists the date edits (see Privacy). `graph/seizures.csv` gives seizure clock times on
+  portal-shifted dates; they do not line up one-to-one with the annotation offsets, so events are taken from annotations.xml.
+
+## Record readmes (verbatim)
+### sub-study3 (Study 3)
+The patient is a right-handed, 21-year old male who was admitted to the epilepsy monitoring unit for **intracranial monitoring**. The age at onset was 13 years old.
+
+These data are from a 6 x 8 grid that was placed over the right frontal region, two 4 x 6 grids placed over the right temporal lobe and right parietal region, respectively, a 4-contact strip wrapped beneath the right anterior temporal lobe, a 4-contact strip wrapped beneath the right posterior temporal lobe, and a 4-contact depth electrode inserted in the anterior temporal region.
+ 
+This is an abnormal computer-assisted prolonged intracranial EEG monitoring session due to the presence of frequent independent right frontal, right parietal and right temporal epileptiform discharges. During the monitoring session, the patient had a total of **eleven seizures, including nine clinical seizures and two seizures which were subclinical**. The first six seizures showed a diffuse ictal onset over the right frontal and right temporal grids. The last five seizures showed either a focal ictal onset simultaneously from the right anterior temporal strip and the posterior superior region of the right frontal grid, or focal onset from these two foci independently. These findings could be consistent with a localization-related epilepsy with seizure onset in the right frontotemporal neocortex.
+ 
+The patient underwent surgery of reopening the right forntotemporoparietal craniotomy and removing the subdural grid electrodes, then a **right anterior-superior frontocortical resection, a right temporal lobectomy, and a right amygdalohippocampectomy**. Pathology samples of leptomeningeal and focal parenchymal lymphohistiocytic infiltrate consistent with grid/electrode placement. Mild subpial and subcortical gliosis. The patient also underwent surgery for a right mesial temporal lobe resection. Pathology samples of mesial temporal structures with focal parenchymal macrophage aggregate consistent with electrode placement. **Mild subpial and subcortical gliosis**.
+
+### sub-study5 (Study 5)
+This patient is a right-handed, 16-year old male who was admitted to the epilepsy monitoring unit for **intracranial monitoring**. The age of onset was 1 year old. 
+
+These data are from an 8-contact straight strip inserted into the left frontal region parallel to the superior temporal gyrus, an 8x8 grid inserted over the left posterior temporo-occipital region, a 4-contact straight strip inserted over the left anterior temporal pole, a 4-contact straight strip inserted over the left inferior subtemporal region, posterior to the anterior temporal strip, a 4-contact orthogonal depth electrode inserted between the anterior temporal strip and inferior subtemporal strip, targeting the hippocampus, and another 4-contact orthogonal depth electrode targeting the hippocampus.
+
+This is an abnormal computer-assisted prolonged intracranial EEG monitoring session, lasting approximately 2 days, due to the presence of frequent independent left posterior temporo-occipital, left mesial temporal and left anterior temporal epileptiform discharges. During the monitoring session, the patient had **four complex partial seizures**. All of these seizures began in the posterior contacts of the left temporo-occipital grid. The findings would be consistent with a localization-related epilepsy with seizure onset in the left occipital neocortex. 
+The patient underwent a **surgery for reopening of left tempooccipital craniotomy, removal of subdural grids and depth electrodes, and left occipital pole resection**. Pathology samples for cortex and underlying white matter with changes consistent with remote destructive injury. The cortex shows multiple areas of severe neuronal loss and gliosis associated with atrophy and focal dystrophic calcification. **Calcifications are present focally in the meninges and vascular walls**. An immunohistochemical stain was performed on paraffin-embedded tissue using antibodies to GFAP. GFAP highlights disruption of the normal cortical architecture, reactive gliosis and subpial gliosis. An immunohistochemical stain for NeuN highlights neurons. GROSS DESCRIPTION: Received fresh labeled "left occipital brain lobe" is a 7.51 gram, 5.2 x 2.8 x 0.8 cm portion of brain. The specimen is sent in formalin to the neuropathology working group for sectioning. 
+
+
+**46-month post-resection ILAE 1 outcome score**
+
+### sub-study6 (Study 6)
+The patient is a right-handed, 23-year-old female who was admitted to the epilepsy monitoring unit for intracranial monitoring. Age of onset was 9 years old. 
+
+These data are from _three 8-contact strips_ placed over the left frontopolar cortex, left temporalcortex, and left parietal cortex, a _4-contact strip_ inserted in the left frontal interhemispheric region, _a 15-contact hybrid strip_ placed over the left central interhemispheric region, _three 8-contact strips_ placed over the right frontopolar cortex, right temporal cortex, and right parietal cortex, _a 4-contact strip_ placed over the right central interhemispheric region, and _a 15-contact hybrid strip_ inserted in the right frontal interhemispheric region. 
+
+This is an abnormal computer-assisted prolonged intracranial EEG monitoring session due to the presence of frequent independent left frontal, left parietal, left temporal, right central interhemispheric, and right parietal epileptiform discharges. During the monitoring session, the patient had **forty-two typical complex partial seizures**. The seizure onset was diffuse and bilateral and therefore non-localized. These findings are consistent with partial epilepsy, with indeterminate seizure onset.
+
+The patient _did not_ undergo resective surgery.
+
+## Privacy
+MEF headers: subject name fields "none"/"Anonymized", subject id placeholder "9-999-000", recording start 2000-01-01
+00:00:00 UTC (the IEEG.org de-identification epoch, not a calendar date); data unencrypted. The MEF header CRCs no longer match
+(consistent with the portal's header anonymisation); all data-block CRCs are valid. Dates in the text sources (clinical
+report, imaging and seizure dates, annotation creation times) are written with day 01 in the sourcedata copies
+(`date_scrub.tsv`); the unedited originals are not part of this deposit. The clinical reports are narrative text without
+names or record numbers (scan in the NEMAR conversion log).
+
+## Ethics approval
+The Pennsieve records and the IEEG.org release give no ethics approval statement beyond the record description ("obtained
+for clinical treatment and collected for research"). No statement has been added.
+
+## Licence
+CC0-1.0 (Creative Commons Zero 1.0 Universal), as released.
+
+## Conversion
+MEF 2.0 was decoded with mef_lib_2_1 (github.com/benbrinkmann/mef_lib_2_1, Apache-2.0); note that the library's built-in block
+CRC check reads the output buffer, so the CRCs were validated on the compressed bytes instead. Every written sample was
+compared with the decoded MEF sample (exact equality).

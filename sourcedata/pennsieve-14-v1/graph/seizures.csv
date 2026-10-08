@@ -1,0 +1,11 @@
+id,label,date,seizure_layer,seizure_start_time,seizure_stop_time,seizure_type,stimulation
+21314d57-10c3-4fff-a4f8-411eab664077,seizures,2000-01-01T00:00:00.000Z,,00:42:12,00:45:11,Subclinical Seizure #1,
+42ed0f45-8fc3-4623-b980-b09a5c1592d9,seizures,2000-01-01T00:00:00.000Z,,17:38:46,17:39:29,Subclinical Seizure #2,
+93a6391d-a551-473a-847c-5215a913d6b9,seizures,2000-01-01T00:00:00.000Z,,00:52:59,00:53:58,Complex Parietal Clinical Seizure #1,
+ddc52656-22f8-4d41-869e-43d3b874465b,seizures,2000-01-01T00:00:00.000Z,,03:01:28,03:02:47,Complex Parietal Clinical Seizure #2,
+388d9133-8ea5-4eaa-95a8-4b6227f99dd9,seizures,2000-01-01T00:00:00.000Z,,00:52:27,00:53:37,Complex Parietal Clinical Seizure #3,
+babda3c5-a43f-4e5e-b458-7c2072d0cbdf,seizures,2000-01-01T00:00:00.000Z,,06:56:46,06:57:55,Complex Parietal Clinical Seizure #5,
+e07c7787-0414-437a-be44-0472eee51685,seizures,2000-01-01T00:00:00.000Z,,01:04:00,01:04:59,Complex Parietal Clinical Seizure #6,
+7d6cc6e1-7cc1-47cc-8edb-d6273f141a23,seizures,2000-01-01T00:00:00.000Z,,07:50:11,07:50:22,Complex Parietal Clinical Seizure #7,
+b15cb78c-2886-4efb-9a5f-79a17930d9a6,seizures,2000-01-01T00:00:00.000Z,,07:51:52,07:52:19,Complex Parietal Clinical Seizure #8,
+305a2d47-4fd8-41d2-b6b1-097e9ca16032,seizures,2000-01-01T00:00:00.000Z,,04:55:05,04:56:27,Complex Parietal Clinical Seizure #9,

@@ -1,0 +1,4 @@
+id,label,acquisition_date,bodypart_examined,conversion_software,conversion_software_version,image_type,manufacturer,manufacturers_model_name,modality,patient_position,protocol_name,slice_thickness,x_ray_exposure,pt_details,mr_details,ct_details
+23a3fe59-d42c-4acf-be0a-8f1652c9c865,imaging_study,1999-07-01T00:00:00.000Z,,,09,OTHER;PRIMARY;ORIGINAL,GE Medical Systems,Genesis_Signa,MR,HFS,Brain For Seizures/,1.600000024,,,,
+f921182b-a55e-47e6-8049-851294dfc359,imaging_study,1999-12-01T00:00:00.000Z,,,"15\\LX\\MR Software release:15.0_M4_0910.a",OTHER;PRIMARY;ORIGINAL,GE Medical Systems,Signa HDxt,MR,HFS,3T HEAD WITHOUT/6,3.0,,,,
+de472d90-4640-4994-bfcb-fe8e0fd3d3d1,imaging_study,1999-12-01T00:00:00.000Z,HEAD,,syngo CT 2009E,PRIMARY;ORIGINAL;CT_SOM5 SPI;AXIAL,Siemens,Sensation 64,CT,HFS,30_0_Electrode_Placement_Spiral,0.75,425,,,

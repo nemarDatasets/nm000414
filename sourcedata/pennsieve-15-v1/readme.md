@@ -1,0 +1,7 @@
+The patient is a right-handed, 23-year-old female who was admitted to the epilepsy monitoring unit for intracranial monitoring. Age of onset was 9 years old. 
+
+These data are from _three 8-contact strips_ placed over the left frontopolar cortex, left temporalcortex, and left parietal cortex, a _4-contact strip_ inserted in the left frontal interhemispheric region, _a 15-contact hybrid strip_ placed over the left central interhemispheric region, _three 8-contact strips_ placed over the right frontopolar cortex, right temporal cortex, and right parietal cortex, _a 4-contact strip_ placed over the right central interhemispheric region, and _a 15-contact hybrid strip_ inserted in the right frontal interhemispheric region. 
+
+This is an abnormal computer-assisted prolonged intracranial EEG monitoring session due to the presence of frequent independent left frontal, left parietal, left temporal, right central interhemispheric, and right parietal epileptiform discharges. During the monitoring session, the patient had **forty-two typical complex partial seizures**. The seizure onset was diffuse and bilateral and therefore non-localized. These findings are consistent with partial epilepsy, with indeterminate seizure onset.
+
+The patient _did not_ undergo resective surgery.

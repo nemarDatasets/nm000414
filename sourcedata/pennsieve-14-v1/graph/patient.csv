@@ -1,0 +1,2 @@
+id,label,age_at_time_of_implant,brain_resected,handedness,id,ilae_surgical_outcome,prior_resection,seizure_type,sex
+8b74b33a-978c-487b-9b18-a81aca3c02af,patient,,true,Right,Study 021,Class 1: Completely seizure free; no auras,,Focal Partial-Secondarily generalized tonic-clonic,Male

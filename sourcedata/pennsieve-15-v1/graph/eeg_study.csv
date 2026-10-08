@@ -1,0 +1,2 @@
+id,label,number_of_channels,sampling_rate,study_type,type_of_electrodes
+0664b472-c053-44bb-b68f-40f63f1751b4,eeg_study,88,500.0,Intracranial EEG,strips

@@ -1,0 +1,125 @@
+path	size	sha256
+graph/clinical_report.csv	20086	
+graph/ct_details.csv	181	
+graph/eeg_study.csv	173	
+graph/imaging_study.csv	842	
+graph/mr_details.csv	530	
+graph/packages.csv	86	
+graph/patient.csv	285	
+graph/pt_details.csv	137	
+graph/relationships.csv	3747	
+graph/schema.json	16094	
+graph/seizures.csv	1353	
+packages/EEG/Study 3 IEEG/RAT1.mef	304582704	
+packages/EEG/Study 3 IEEG/RAT2.mef	301814656	
+packages/EEG/Study 3 IEEG/RAT3.mef	312518552	
+packages/EEG/Study 3 IEEG/RAT4.mef	301014264	
+packages/EEG/Study 3 IEEG/RFG10.mef	315054136	
+packages/EEG/Study 3 IEEG/RFG11.mef	300983368	
+packages/EEG/Study 3 IEEG/RFG12.mef	318600008	
+packages/EEG/Study 3 IEEG/RFG13.mef	327290656	
+packages/EEG/Study 3 IEEG/RFG14.mef	331192480	
+packages/EEG/Study 3 IEEG/RFG15.mef	304151008	
+packages/EEG/Study 3 IEEG/RFG16.mef	296274696	
+packages/EEG/Study 3 IEEG/RFG17.mef	317295576	
+packages/EEG/Study 3 IEEG/RFG18.mef	307190320	
+packages/EEG/Study 3 IEEG/RFG19.mef	305408784	
+packages/EEG/Study 3 IEEG/RFG1.mef	309544536	
+packages/EEG/Study 3 IEEG/RFG20.mef	321781552	
+packages/EEG/Study 3 IEEG/RFG21.mef	311770552	
+packages/EEG/Study 3 IEEG/RFG22.mef	321083048	
+packages/EEG/Study 3 IEEG/RFG23.mef	310314192	
+packages/EEG/Study 3 IEEG/RFG24.mef	300758256	
+packages/EEG/Study 3 IEEG/RFG25.mef	308907640	
+packages/EEG/Study 3 IEEG/RFG26.mef	310093064	
+packages/EEG/Study 3 IEEG/RFG27.mef	311455936	
+packages/EEG/Study 3 IEEG/RFG28.mef	322111128	
+packages/EEG/Study 3 IEEG/RFG29.mef	320756496	
+packages/EEG/Study 3 IEEG/RFG2.mef	300620040	
+packages/EEG/Study 3 IEEG/RFG30.mef	334884792	
+packages/EEG/Study 3 IEEG/RFG31.mef	344624536	
+packages/EEG/Study 3 IEEG/RFG32.mef	317541888	
+packages/EEG/Study 3 IEEG/RFG33.mef	309551552	
+packages/EEG/Study 3 IEEG/RFG34.mef	321824912	
+packages/EEG/Study 3 IEEG/RFG35.mef	317822792	
+packages/EEG/Study 3 IEEG/RFG36.mef	307008344	
+packages/EEG/Study 3 IEEG/RFG37.mef	321585736	
+packages/EEG/Study 3 IEEG/RFG38.mef	314907672	
+packages/EEG/Study 3 IEEG/RFG39.mef	344324936	
+packages/EEG/Study 3 IEEG/RFG3.mef	297044760	
+packages/EEG/Study 3 IEEG/RFG40.mef	331641528	
+packages/EEG/Study 3 IEEG/RFG41.mef	346943784	
+packages/EEG/Study 3 IEEG/RFG42.mef	315123480	
+packages/EEG/Study 3 IEEG/RFG43.mef	333598192	
+packages/EEG/Study 3 IEEG/RFG44.mef	331038696	
+packages/EEG/Study 3 IEEG/RFG45.mef	311463632	
+packages/EEG/Study 3 IEEG/RFG46.mef	312616504	
+packages/EEG/Study 3 IEEG/RFG47.mef	308913144	
+packages/EEG/Study 3 IEEG/RFG48.mef	308933408	
+packages/EEG/Study 3 IEEG/RFG4.mef	312814648	
+packages/EEG/Study 3 IEEG/RFG5.mef	310000120	
+packages/EEG/Study 3 IEEG/RFG6.mef	299731184	
+packages/EEG/Study 3 IEEG/RFG7.mef	304259240	
+packages/EEG/Study 3 IEEG/RFG8.mef	309391096	
+packages/EEG/Study 3 IEEG/RFG9.mef	315737040	
+packages/EEG/Study 3 IEEG/RPG10.mef	337006240	
+packages/EEG/Study 3 IEEG/RPG11.mef	311964680	
+packages/EEG/Study 3 IEEG/RPG12.mef	335191368	
+packages/EEG/Study 3 IEEG/RPG13.mef	309634088	
+packages/EEG/Study 3 IEEG/RPG14.mef	312101864	
+packages/EEG/Study 3 IEEG/RPG15.mef	348221168	
+packages/EEG/Study 3 IEEG/RPG16.mef	332804552	
+packages/EEG/Study 3 IEEG/RPG17.mef	340923920	
+packages/EEG/Study 3 IEEG/RPG18.mef	335835576	
+packages/EEG/Study 3 IEEG/RPG19.mef	326115096	
+packages/EEG/Study 3 IEEG/RPG1.mef	301365904	
+packages/EEG/Study 3 IEEG/RPG20.mef	315062152	
+packages/EEG/Study 3 IEEG/RPG21.mef	320829848	
+packages/EEG/Study 3 IEEG/RPG22.mef	327140544	
+packages/EEG/Study 3 IEEG/RPG23.mef	318041464	
+packages/EEG/Study 3 IEEG/RPG24.mef	326964672	
+packages/EEG/Study 3 IEEG/RPG2.mef	305479432	
+packages/EEG/Study 3 IEEG/RPG3.mef	323015784	
+packages/EEG/Study 3 IEEG/RPG4.mef	307320616	
+packages/EEG/Study 3 IEEG/RPG5.mef	312777952	
+packages/EEG/Study 3 IEEG/RPG6.mef	303181560	
+packages/EEG/Study 3 IEEG/RPG7.mef	326147296	
+packages/EEG/Study 3 IEEG/RPG8.mef	321822368	
+packages/EEG/Study 3 IEEG/RPG9.mef	325859328	
+packages/EEG/Study 3 IEEG/RPT1.mef	314956984	
+packages/EEG/Study 3 IEEG/RPT2.mef	312887688	
+packages/EEG/Study 3 IEEG/RPT3.mef	311117552	
+packages/EEG/Study 3 IEEG/RPT4.mef	320730584	
+packages/EEG/Study 3 IEEG/RTD1.mef	304644856	
+packages/EEG/Study 3 IEEG/RTD2.mef	293574800	
+packages/EEG/Study 3 IEEG/RTD3.mef	292986064	
+packages/EEG/Study 3 IEEG/RTD4.mef	295374736	
+packages/EEG/Study 3 IEEG/RTG10.mef	296758200	
+packages/EEG/Study 3 IEEG/RTG11.mef	312905040	
+packages/EEG/Study 3 IEEG/RTG12.mef	290252416	
+packages/EEG/Study 3 IEEG/RTG13.mef	296383392	
+packages/EEG/Study 3 IEEG/RTG14.mef	302041968	
+packages/EEG/Study 3 IEEG/RTG15.mef	293349640	
+packages/EEG/Study 3 IEEG/RTG16.mef	304456048	
+packages/EEG/Study 3 IEEG/RTG17.mef	300663528	
+packages/EEG/Study 3 IEEG/RTG18.mef	306800528	
+packages/EEG/Study 3 IEEG/RTG19.mef	295533320	
+packages/EEG/Study 3 IEEG/RTG1.mef	292731608	
+packages/EEG/Study 3 IEEG/RTG20.mef	302097784	
+packages/EEG/Study 3 IEEG/RTG21.mef	292024640	
+packages/EEG/Study 3 IEEG/RTG22.mef	301081464	
+packages/EEG/Study 3 IEEG/RTG23.mef	323745408	
+packages/EEG/Study 3 IEEG/RTG24.mef	307429872	
+packages/EEG/Study 3 IEEG/RTG2.mef	309995640	
+packages/EEG/Study 3 IEEG/RTG3.mef	311693800	
+packages/EEG/Study 3 IEEG/RTG4.mef	304764496	
+packages/EEG/Study 3 IEEG/RTG5.mef	295615848	
+packages/EEG/Study 3 IEEG/RTG6.mef	299554472	
+packages/EEG/Study 3 IEEG/RTG7.mef	295248592	
+packages/EEG/Study 3 IEEG/RTG8.mef	306511264	
+packages/EEG/Study 3 IEEG/RTG9.mef	299250104	
+packages/EEG/annotations.xml	235627	
+packages/Cartoon Map.pdf	234714	
+banner.jpg	25505	
+metadata.json	29034	
+readme.md	2033	

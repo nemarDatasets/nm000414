@@ -1,0 +1,9 @@
+{
+  "start_offset_s": {
+    "Description": "Start of the run in seconds after the start of the MEF recording (runs are separated by the recording discontinuities flagged in the MEF files)",
+    "Units": "s"
+  },
+  "n_samples": {
+    "Description": "Number of samples per channel in the run"
+  }
+}

@@ -1,0 +1,613 @@
+{
+  "models" : [
+    {
+      "name" : "clinical_report",
+      "displayName" : "Clinical Report",
+      "description" : "",
+      "properties" : [
+        {
+          "name" : "date",
+          "displayName" : "Date",
+          "description" : "",
+          "dataType" : "Date"
+        },
+        {
+          "name" : "report_type",
+          "displayName" : "Report Type",
+          "description" : "",
+          "dataType" : {
+            "type" : "enum",
+            "items" : {
+              "type" : "String",
+              "enum" : [
+                "EEG Report",
+                "Image Report",
+                "Pathology Report",
+                "Surgery Report"
+              ]
+            }
+          }
+        },
+        {
+          "name" : "description",
+          "displayName" : "Description",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "tags",
+          "displayName" : "Tags",
+          "description" : "",
+          "dataType" : {
+            "type" : "array",
+            "items" : {
+              "type" : "String"
+            }
+          }
+        }
+      ],
+      "file" : "clinical_report.csv"
+    },
+    {
+      "name" : "ct_details",
+      "displayName" : "CT Details",
+      "description" : "",
+      "properties" : [
+        {
+          "name" : "protocol_name",
+          "displayName" : "Protocol Name",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "time_point",
+          "displayName" : "Time Point",
+          "description" : "",
+          "dataType" : {
+            "type" : "enum",
+            "items" : {
+              "type" : "String",
+              "enum" : [
+                "Post-Electrode Removal",
+                "Post-Implant",
+                "Post-Resection",
+                "Pre-Implant"
+              ]
+            }
+          }
+        },
+        {
+          "name" : "series_description",
+          "displayName" : "Series Description",
+          "description" : "",
+          "dataType" : "String"
+        }
+      ],
+      "file" : "ct_details.csv"
+    },
+    {
+      "name" : "eeg_study",
+      "displayName" : "EEG Study",
+      "description" : "",
+      "properties" : [
+        {
+          "name" : "study_type",
+          "displayName" : "Study type",
+          "description" : "",
+          "dataType" : {
+            "type" : "enum",
+            "items" : {
+              "type" : "String",
+              "enum" : [
+                "Intracranial EEG",
+                "Surface EEG"
+              ]
+            }
+          }
+        },
+        {
+          "name" : "number_of_channels",
+          "displayName" : "Number of channels",
+          "description" : "",
+          "dataType" : "Long"
+        },
+        {
+          "name" : "sampling_rate",
+          "displayName" : "Sampling rate",
+          "description" : "",
+          "dataType" : "Double"
+        },
+        {
+          "name" : "type_of_electrodes",
+          "displayName" : "Type of Electrodes",
+          "description" : "",
+          "dataType" : {
+            "type" : "array",
+            "items" : {
+              "type" : "String"
+            }
+          }
+        }
+      ],
+      "file" : "eeg_study.csv"
+    },
+    {
+      "name" : "imaging_study",
+      "displayName" : "Imaging Study",
+      "description" : "",
+      "properties" : [
+        {
+          "name" : "modality",
+          "displayName" : "Modality",
+          "description" : "",
+          "dataType" : {
+            "type" : "enum",
+            "items" : {
+              "type" : "String",
+              "enum" : [
+                "WADA",
+                "MR",
+                "CT",
+                "PT",
+                "SPECT"
+              ]
+            }
+          }
+        },
+        {
+          "name" : "acquisition_date",
+          "displayName" : "Acquisition date",
+          "description" : "",
+          "dataType" : "Date"
+        },
+        {
+          "name" : "manufacturer",
+          "displayName" : "Manufacturer",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "manufacturers_model_name",
+          "displayName" : "Manufacturers model name",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "patient_position",
+          "displayName" : "Patient position",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "bodypart_examined",
+          "displayName" : "Bodypart examined",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "protocol_name",
+          "displayName" : "Protocol name",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "image_type",
+          "displayName" : "Image type",
+          "description" : "",
+          "dataType" : {
+            "type" : "array",
+            "items" : {
+              "type" : "String",
+              "enum" : [
+                "OTHER",
+                "MR",
+                "ORIGINAL",
+                "AXIAL",
+                "LOCALIZER",
+                "DERIVED",
+                "CT",
+                "SOM5",
+                "CT_SOM5 SPI",
+                "TOP",
+                "PRIMARY"
+              ]
+            }
+          }
+        },
+        {
+          "name" : "x_ray_exposure",
+          "displayName" : "XRay exposure",
+          "description" : "",
+          "dataType" : "Long"
+        },
+        {
+          "name" : "conversion_software",
+          "displayName" : "Conversion software",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "conversion_software_version",
+          "displayName" : "Conversion software version",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "slice_thickness",
+          "displayName" : "Slice Thickness",
+          "description" : "",
+          "dataType" : "Double"
+        },
+        {
+          "name" : "pt_details",
+          "displayName" : "PT Details",
+          "dataType" : {
+            "to" : "pt_details",
+            "file" : "pt_details.csv",
+            "type" : "Model"
+          }
+        },
+        {
+          "name" : "mr_details",
+          "displayName" : "MR Details",
+          "dataType" : {
+            "to" : "mr_details",
+            "file" : "mr_details.csv",
+            "type" : "Model"
+          }
+        },
+        {
+          "name" : "ct_details",
+          "displayName" : "CT Details",
+          "dataType" : {
+            "to" : "ct_details",
+            "file" : "ct_details.csv",
+            "type" : "Model"
+          }
+        }
+      ],
+      "file" : "imaging_study.csv"
+    },
+    {
+      "name" : "mr_details",
+      "displayName" : "MR Details",
+      "description" : "",
+      "properties" : [
+        {
+          "name" : "protocol_name",
+          "displayName" : "Protocol name",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "series_description",
+          "displayName" : "Series Description",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "magnetic_field_strength",
+          "displayName" : "Magnetic field strength",
+          "description" : "",
+          "dataType" : "Double"
+        },
+        {
+          "name" : "scan_options",
+          "displayName" : "Scan options",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "scanning_sequence",
+          "displayName" : "Scanning sequence",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "sequence_variant",
+          "displayName" : "Sequence variant",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "echo_time",
+          "displayName" : "Echo time",
+          "description" : "",
+          "dataType" : "Double"
+        },
+        {
+          "name" : "repetition_time",
+          "displayName" : "Repetition time",
+          "description" : "",
+          "dataType" : "Double"
+        },
+        {
+          "name" : "inversion_time",
+          "displayName" : "Inversion time",
+          "description" : "",
+          "dataType" : "Double"
+        },
+        {
+          "name" : "flip_angle",
+          "displayName" : "Flip angle",
+          "description" : "",
+          "dataType" : "Double"
+        },
+        {
+          "name" : "percent_phase_fov",
+          "displayName" : "Percent phase FOV",
+          "description" : "",
+          "dataType" : "Double"
+        },
+        {
+          "name" : "time_point",
+          "displayName" : "Time Point",
+          "description" : "",
+          "dataType" : {
+            "type" : "enum",
+            "items" : {
+              "type" : "String",
+              "enum" : [
+                "Post-Electrode Removal",
+                "Post-Implant",
+                "Post-Resection",
+                "Pre-Implant"
+              ]
+            }
+          }
+        }
+      ],
+      "file" : "mr_details.csv"
+    },
+    {
+      "name" : "patient",
+      "displayName" : "Patient",
+      "description" : "",
+      "properties" : [
+        {
+          "name" : "id",
+          "displayName" : "id",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "sex",
+          "displayName" : "Gender",
+          "description" : "",
+          "dataType" : {
+            "type" : "enum",
+            "items" : {
+              "type" : "String",
+              "enum" : [
+                "Female",
+                "Male"
+              ]
+            }
+          }
+        },
+        {
+          "name" : "handedness",
+          "displayName" : "Handedness",
+          "description" : "",
+          "dataType" : {
+            "type" : "enum",
+            "items" : {
+              "type" : "String",
+              "enum" : [
+                "Ambidextrous",
+                "Left",
+                "Right"
+              ]
+            }
+          }
+        },
+        {
+          "name" : "brain_resected",
+          "displayName" : "Outcome procedure: resection",
+          "description" : "",
+          "dataType" : "Boolean"
+        },
+        {
+          "name" : "ilae_surgical_outcome",
+          "displayName" : "ILAE Surgical Outcome",
+          "description" : "",
+          "dataType" : {
+            "type" : "enum",
+            "items" : {
+              "type" : "String",
+              "enum" : [
+                "Class 6: More than 100% increase of baseline seizure days; ± auras",
+                "Class 3: 1 to 3 seizure days per year; ± auras",
+                "Class 2: Only auras; no other seizures",
+                "Class 5: Less than 50% reduction of baseline seizure days; ± auras",
+                "Class 1: Completely seizure free; no auras",
+                "Class 4: 4 seizure days per year to 50% reduction of baseline seizure days; ± auras"
+              ]
+            }
+          }
+        },
+        {
+          "name" : "seizure_type",
+          "displayName" : "Seizure Type",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "age_at_time_of_implant",
+          "displayName" : "Age at Time of Implant",
+          "description" : "",
+          "dataType" : "Long"
+        },
+        {
+          "name" : "prior_resection",
+          "displayName" : "Prior Resection",
+          "description" : "",
+          "dataType" : "Boolean"
+        }
+      ],
+      "file" : "patient.csv"
+    },
+    {
+      "name" : "pt_details",
+      "displayName" : "PT Details",
+      "description" : "",
+      "properties" : [
+        {
+          "name" : "protocol_name",
+          "displayName" : "Protocol Name",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "radionuclide_positron_fraction",
+          "displayName" : "Radionuclide positron fraction",
+          "description" : "",
+          "dataType" : "Double"
+        },
+        {
+          "name" : "radionuclide_total_dose",
+          "displayName" : "Radionuclide total dose",
+          "description" : "",
+          "dataType" : "Double"
+        },
+        {
+          "name" : "radionuclide_half_life",
+          "displayName" : "Radionuclide halfLife",
+          "description" : "",
+          "dataType" : "Double"
+        },
+        {
+          "name" : "dose_calibration_factor",
+          "displayName" : "Dose calibration factor",
+          "description" : "",
+          "dataType" : "Double"
+        },
+        {
+          "name" : "time_point",
+          "displayName" : "Time Point",
+          "description" : "",
+          "dataType" : {
+            "type" : "enum",
+            "items" : {
+              "type" : "String",
+              "enum" : [
+                "Post-Electrode Removal",
+                "Post-Implant",
+                "Pre-Implant"
+              ]
+            }
+          }
+        }
+      ],
+      "file" : "pt_details.csv"
+    },
+    {
+      "name" : "seizures",
+      "displayName" : "Seizures",
+      "description" : "",
+      "properties" : [
+        {
+          "name" : "date",
+          "displayName" : "Date",
+          "description" : "",
+          "dataType" : "Date"
+        },
+        {
+          "name" : "seizure_type",
+          "displayName" : "Seizure Type",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "seizure_start_time",
+          "displayName" : "Seizure Start Time",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "seizure_stop_time",
+          "displayName" : "Seizure Stop Time",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "seizure_layer",
+          "displayName" : "Seizure Layer",
+          "description" : "",
+          "dataType" : "String"
+        },
+        {
+          "name" : "stimulation",
+          "displayName" : "Stimulation",
+          "description" : "",
+          "dataType" : "String"
+        }
+      ],
+      "file" : "seizures.csv"
+    },
+    {
+      "name" : "package",
+      "displayName" : "Package",
+      "description" : "Proxy concept that represents a file in the dataset",
+      "properties" : [
+        {
+          "name" : "path",
+          "displayName" : "Path",
+          "description" : "The path to the file in the dataset",
+          "dataType" : "String"
+        }
+      ],
+      "file" : "packages.csv"
+    }
+  ],
+  "relationships" : [
+    {
+      "name" : "belongs_to",
+      "from" : "",
+      "to" : "",
+      "file" : "relationships.csv"
+    },
+    {
+      "name" : "has_eeg_a694fad0-9839-11e9-87f4-9d49ac14ccfe",
+      "from" : "patient",
+      "to" : "eeg_study",
+      "file" : "relationships.csv"
+    },
+    {
+      "name" : "has_imaging_baf0bf90-764d-11e9-b7d7-37ecb3531ed9",
+      "from" : "patient",
+      "to" : "imaging_study",
+      "file" : "relationships.csv"
+    },
+    {
+      "name" : "has_imaging_bb39dc80-9839-11e9-87f4-9d49ac14ccfe",
+      "from" : "clinical_report",
+      "to" : "ct_details",
+      "file" : "relationships.csv"
+    },
+    {
+      "name" : "has_imaging_bf81e670-9839-11e9-87f4-9d49ac14ccfe",
+      "from" : "clinical_report",
+      "to" : "mr_details",
+      "file" : "relationships.csv"
+    },
+    {
+      "name" : "has_note_edd61360-764d-11e9-b7d7-37ecb3531ed9",
+      "from" : "imaging_study",
+      "to" : "clinical_report",
+      "file" : "relationships.csv"
+    },
+    {
+      "name" : "has_report_b35794d0-9839-11e9-87f4-9d49ac14ccfe",
+      "from" : "eeg_study",
+      "to" : "clinical_report",
+      "file" : "relationships.csv"
+    },
+    {
+      "name" : "has_seizures_af5bd620-9839-11e9-87f4-9d49ac14ccfe",
+      "from" : "eeg_study",
+      "to" : "seizures",
+      "file" : "relationships.csv"
+    }
+  ]
+}
