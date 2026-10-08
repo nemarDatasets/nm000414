@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Intracranial EEG Epilepsy - Studies 3, 5 and 6 (Mayo Clinic; IEEG.org)",
-  "description": "Long-term clinical intracranial EEG recordings from three patients with drug-resistant epilepsy, recorded at Mayo Clinic (Rochester, MN) using subdural grid/strip and depth electrodes. The dataset includes expert seizure annotations, with data originally shared via the IEEG.org portal and Pennsieve Discover (Studies 3, 5 and 6). Recordings were converted losslessly from MEF 2.0 to BIDS iEEG in BrainVision format at 500 Hz, split into runs at recording discontinuities, with participant metadata and seizure events.",
-  "methods_description": "Clinical intracranial EEG was acquired with an XLTek EEG 128 system at 500 Hz (0.1 Hz high-pass hardware filter) from subdural grids/strips (ECoG) and depth electrodes (SEEG). MEF 2.0 files were decoded with mef_lib_2_1 with block CRC validation, split into runs at MEF discontinuities, and written as lossless INT_32 BrainVision files. Events come from IEEG.org annotation layers placed using MEF block timestamps.",
+  "description": "Long-term clinical intracranial EEG recordings from three patients with drug-resistant epilepsy, collected at Mayo Clinic (Rochester, MN) and originally shared through IEEG.org and Pennsieve Discover (Studies 3, 5 and 6). Recordings use subdural grid/strip and depth electrodes and include expert seizure annotations. The data were converted losslessly from MEF 2.0 to BIDS iEEG in BrainVision format, with each run corresponding to a continuous segment.",
+  "methods_description": "Clinical intracranial EEG was recorded with an XLTek EEG 128 system at 500 Hz. MEF 2.0 files were decoded with mef_lib_2_1 and split into runs at MEF discontinuities. They were written as BrainVision INT_32, with every sample verified against the decoded MEF. Seizure annotations from the IEEG.org layer were converted to events.tsv.",
   "license": "CC0-1.0",
   "dataset_type": "raw",
   "authors": {
@@ -31,10 +31,10 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     },
     {
-      "term": "drug-resistant epilepsy"
+      "term": "depth electrodes"
     },
     {
-      "term": "depth electrodes"
+      "term": "drug-resistant epilepsy"
     }
   ],
   "related_identifiers": [
@@ -62,6 +62,11 @@
       "identifier": "https://nemar.org/dataset/nm000414",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1002/acn3.618",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "resource_type_general": "Dataset",
@@ -85,5 +90,5 @@
     ".vmrk",
     ".xml"
   ],
-  "source_hash": "855c15918540bd8eafd0f85868eec24714b0da7de88e54c62f381ba624e18219"
+  "source_hash": "aa7f5a6db231e95c014f49d8e13ea3d5693ae6444bd0fece2c30cfe3c2c89c96"
 }
