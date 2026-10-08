@@ -1,11 +1,42 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Intracranial EEG Epilepsy - Studies 3, 5 and 6 (Mayo Clinic; IEEG.org)",
+  "description": "Long-term clinical intracranial EEG recordings from three patients with drug-resistant epilepsy, recorded at Mayo Clinic (Rochester, MN) using subdural grid/strip and depth electrodes. The dataset includes expert seizure annotations, with data originally shared via the IEEG.org portal and Pennsieve Discover (Studies 3, 5 and 6). Recordings were converted losslessly from MEF 2.0 to BIDS iEEG in BrainVision format at 500 Hz, split into runs at recording discontinuities, with participant metadata and seizure events.",
+  "methods_description": "Clinical intracranial EEG was acquired with an XLTek EEG 128 system at 500 Hz (0.1 Hz high-pass hardware filter) from subdural grids/strips (ECoG) and depth electrodes (SEEG). MEF 2.0 files were decoded with mef_lib_2_1 with block CRC validation, split into runs at MEF discontinuities, and written as lossless INT_32 BrainVision files. Events come from IEEG.org annotation layers placed using MEF block timestamps.",
+  "license": "CC0-1.0",
+  "dataset_type": "raw",
   "authors": {
     "Jenaye Johnson": {},
     "Gregory Worrell": {},
     "Brian Litt": {}
   },
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Seizures",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012640"
+    },
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "drug-resistant epilepsy"
+    },
+    {
+      "term": "depth electrodes"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.26275/psj7-wggf",
@@ -33,14 +64,11 @@
       "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "Intracranial EEG Epilepsy - Studies 3, 5 and 6 (Mayo Clinic; IEEG.org)",
-  "license": "CC0-1.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "327 GB (372 files)"
   ],
@@ -57,36 +85,5 @@
     ".vmrk",
     ".xml"
   ],
-  "description": "Long-term clinical intracranial EEG recordings from three patients with drug-resistant epilepsy, collected at Mayo Clinic (Rochester, MN) and originally shared via the IEEG.org portal. Recordings come from subdural grid, strip and depth electrodes sampled at 500 Hz and include expert seizure annotations across several days of monitoring per patient. The data are converted to BIDS (BrainVision format) from the original MEF 2.0 files, with participant clinical information and the original source records retained.",
-  "methods_description": "Clinical intracranial EEG was acquired with an XLTek EEG 128 system at 500 Hz and stored as MEF 2.0. The files were decoded with mef_lib_2_1 and block CRCs were validated. Runs were split at recording discontinuities and written losslessly as BrainVision INT_32. Every sample was checked against the decoded MEF data. Seizure annotations from the IEEG.org layer were placed as events using MEF block timestamps.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "Seizures",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012640"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "ECoG"
-    },
-    {
-      "term": "depth electrodes"
-    },
-    {
-      "term": "seizure annotations"
-    }
-  ],
-  "source_hash": "1e6eb88c578336e5c37747b7bee61dc35270fec78042e230ebe0dc2b94ea79bc"
+  "source_hash": "855c15918540bd8eafd0f85868eec24714b0da7de88e54c62f381ba624e18219"
 }
