@@ -1,0 +1,92 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Jenaye Johnson": {},
+    "Gregory Worrell": {},
+    "Brian Litt": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.26275/psj7-wggf",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.26275/hqyv-oagj",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.26275/pfxu-irqf",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000414",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000414",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "Intracranial EEG Epilepsy - Studies 3, 5 and 6 (Mayo Clinic; IEEG.org)",
+  "license": "CC0-1.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "327 GB (372 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".eeg",
+    ".jpg",
+    ".json",
+    ".md",
+    ".mef",
+    ".pdf",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".xml"
+  ],
+  "description": "Long-term clinical intracranial EEG recordings from three patients with drug-resistant epilepsy, collected at Mayo Clinic (Rochester, MN) and originally shared via the IEEG.org portal. Recordings come from subdural grid, strip and depth electrodes sampled at 500 Hz and include expert seizure annotations across several days of monitoring per patient. The data are converted to BIDS (BrainVision format) from the original MEF 2.0 files, with participant clinical information and the original source records retained.",
+  "methods_description": "Clinical intracranial EEG was acquired with an XLTek EEG 128 system at 500 Hz and stored as MEF 2.0. The files were decoded with mef_lib_2_1 and block CRCs were validated. Runs were split at recording discontinuities and written losslessly as BrainVision INT_32. Every sample was checked against the decoded MEF data. Seizure annotations from the IEEG.org layer were placed as events using MEF block timestamps.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Seizures",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012640"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "ECoG"
+    },
+    {
+      "term": "depth electrodes"
+    },
+    {
+      "term": "seizure annotations"
+    }
+  ],
+  "source_hash": "1e6eb88c578336e5c37747b7bee61dc35270fec78042e230ebe0dc2b94ea79bc"
+}
