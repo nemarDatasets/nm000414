@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000414-blue)](https://doi.org/10.82901/nemar.nm000414)
+
 # Intracranial EEG Epilepsy - Studies 3, 5 and 6 (Mayo Clinic, IEEG.org)
 
 ## Overview
