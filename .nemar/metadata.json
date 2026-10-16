@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Intracranial EEG Epilepsy - Studies 3, 5 and 6 (Mayo Clinic; IEEG.org)",
-  "description": "Long-term clinical intracranial EEG recordings (subdural grid/strip and depth electrodes) from three patients with drug-resistant epilepsy, recorded at Mayo Clinic, Rochester, and originally shared via IEEG.org and Pennsieve Discover (Studies 3, 5 and 6). The recordings contain expert seizure annotations, with 41 runs totalling roughly 397 hours sampled at 500 Hz. Data were losslessly converted from MEF 2.0 to BrainVision format in BIDS, with participant demographics and clinical outcome information.",
-  "methods_description": "Clinical intracranial EEG was acquired with an XLTek EEG 128 system at 500 Hz (0.1 Hz hardware high-pass). MEF 2.0 files were decoded with mef_lib_2_1 with block CRC validation, split into runs at recording discontinuities, and written as lossless INT_32 BrainVision files. Seizure annotations from IEEG.org were converted to events.tsv using MEF block timestamps.",
+  "title": "Cimbalnik-2018-physiological-10.1002/acn3.618",
+  "description": "Long-term clinical intracranial EEG (subdural grids, strips and depth electrodes) from three adolescent/adult patients with drug-resistant epilepsy, recorded at Mayo Clinic, Rochester, and originally shared through the IEEG.org portal and Pennsieve Discover. Recordings are converted losslessly to BrainVision format at 500 Hz and include expert seizure annotations, channel and electrode tables, and participant clinical information. The dataset totals roughly 397 hours across 41 continuous runs.",
+  "methods_description": "Original MEF 2.0 recordings from an XLTek EEG 128 system (500 Hz, 0.1 Hz hardware high-pass) were decoded with mef_lib_2_1 with block CRC validation. Runs were split at MEF discontinuities and written as lossless INT_32 BrainVision files, with every sample verified against the decoded MEF. Events were derived from IEEG.org annotation layers using MEF block timestamps.",
   "license": "CC0-1.0",
   "dataset_type": "raw",
   "authors": {
@@ -34,7 +34,7 @@
       "term": "depth electrodes"
     },
     {
-      "term": "grid and strip electrodes"
+      "term": "drug-resistant epilepsy"
     }
   ],
   "related_identifiers": [
@@ -91,5 +91,5 @@
     ".xml",
     ".yml"
   ],
-  "source_hash": "a1def9111bf4f9578d66a98f28457ad165c3d7a8dfada0bc4c04bc947514af56"
+  "source_hash": "b71052901608257437d361a42109821f30f8285895958aafa57fc73471d42510"
 }
