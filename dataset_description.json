@@ -1,5 +1,5 @@
 {
-  "Name": "Cimbalnik-2018-physiological-10.1002/acn3.618",
+  "Name": "Intracranial EEG Epilepsy - Studies 3, 5 and 6 (Mayo Clinic; IEEG.org)",
   "BIDSVersion": "1.10.0",
   "DatasetType": "raw",
   "License": "CC0-1.0",
@@ -56,5 +56,5 @@
     "Mayo Clinic Institutional Review Board. Statement for research intracranial EEG from the Mayo Clinic laboratory of G. Worrell (a contributor to these records), quoted from Cimbalnik et al. 2018, Ann Clin Transl Neurol 5:1062-1076, doi:10.1002/acn3.618: \"Each patient consented to this Mayo Institutional Review Board approved study investigating wide bandwidth electrophysiology.\" The source records (Pennsieve 13/14/15, IEEG.org Studies 021/023/024) do not themselves name the protocol, and the paper does not identify these three patients as part of its cohort."
   ],
   "DatasetDOI": "10.82901/nemar.nm000414",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }

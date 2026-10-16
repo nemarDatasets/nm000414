@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Cimbalnik-2018-physiological-10.1002/acn3.618",
+  "title": "Intracranial EEG Epilepsy - Studies 3, 5 and 6 (Mayo Clinic; IEEG.org)",
   "description": "Long-term clinical intracranial EEG (subdural grids, strips and depth electrodes) from three adolescent/adult patients with drug-resistant epilepsy, recorded at Mayo Clinic, Rochester, and originally shared through the IEEG.org portal and Pennsieve Discover. Recordings are converted losslessly to BrainVision format at 500 Hz and include expert seizure annotations, channel and electrode tables, and participant clinical information. The dataset totals roughly 397 hours across 41 continuous runs.",
   "methods_description": "Original MEF 2.0 recordings from an XLTek EEG 128 system (500 Hz, 0.1 Hz hardware high-pass) were decoded with mef_lib_2_1 with block CRC validation. Runs were split at MEF discontinuities and written as lossless INT_32 BrainVision files, with every sample verified against the decoded MEF. Events were derived from IEEG.org annotation layers using MEF block timestamps.",
   "license": "CC0-1.0",
@@ -91,5 +91,5 @@
     ".xml",
     ".yml"
   ],
-  "source_hash": "b71052901608257437d361a42109821f30f8285895958aafa57fc73471d42510"
+  "source_hash": "41bd09a226b54aaae2df9a4eb4cf9333a5a60b349b64600aaecb724465a79c38"
 }
