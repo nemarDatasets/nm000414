@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Intracranial EEG Epilepsy - Studies 3, 5 and 6 (Mayo Clinic; IEEG.org)",
-  "description": "Long-term clinical intracranial EEG (subdural grids, strips and depth electrodes) from three adolescent/adult patients with drug-resistant epilepsy, recorded at Mayo Clinic, Rochester, and originally shared through the IEEG.org portal and Pennsieve Discover. Recordings are converted losslessly to BrainVision format at 500 Hz and include expert seizure annotations, channel and electrode tables, and participant clinical information. The dataset totals roughly 397 hours across 41 continuous runs.",
-  "methods_description": "Original MEF 2.0 recordings from an XLTek EEG 128 system (500 Hz, 0.1 Hz hardware high-pass) were decoded with mef_lib_2_1 with block CRC validation. Runs were split at MEF discontinuities and written as lossless INT_32 BrainVision files, with every sample verified against the decoded MEF. Events were derived from IEEG.org annotation layers using MEF block timestamps.",
+  "description": "Long-term clinical intracranial EEG recordings from three patients with drug-resistant epilepsy, collected at Mayo Clinic (Rochester, MN) using subdural grid, strip and depth electrodes. The dataset includes expert seizure annotations, channel and electrode metadata, and participant clinical information. It is a BIDS conversion of three IEEG.org/Pennsieve records (Studies 3, 5 and 6), with the original MEF 2.0 samples preserved losslessly in BrainVision format.",
+  "methods_description": "Recordings were acquired with an XLTek EEG 128 system at 500 Hz with a 0.1 Hz hardware high-pass filter. Original MEF 2.0 files were decoded with mef_lib_2_1 and split into runs at recording discontinuities. They were written as BrainVision INT_32 files and verified sample by sample against the decoded MEF. Seizure annotations from IEEG.org annotations.xml were converted to events using MEF block timestamps.",
   "license": "CC0-1.0",
   "dataset_type": "raw",
   "authors": {
